@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=198&pluginVersion=1.2.0.0]]></url><name>Track Processor export track to Excel</name><version>1.2.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=198&pluginVersion=1.2.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1493]]></icon_url><image_url></image_url><description><![CDATA[This processor exports the tracks in an xls file (compatible with Protocols)]]></description><classname><![CDATA[plugins.fab.trackmanager.processors.TrackProcessorExportTrackToXLS]]></classname><author><![CDATA[fab - Fabrice de Chaumont]]></author><changelog><![CDATA[-
+Version 1.2.0.0
+Date 2017-03-30 18:30:18
+
+Added virtual detection information.
+
+-
+Version 1.1.0.0
+Date 2016-11-21 15:04:20
+
+Added support for Protocols (Stephane Dallongeville)
+
+-
+Version 0.0.1.0
+Date 2012-09-06 13:12:31
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Track_Processor_export_track_to_Excel]]></web><dependencies><dependency><classname>plugins.fab.trackmanager.TrackManager</classname></dependency></dependencies></root>

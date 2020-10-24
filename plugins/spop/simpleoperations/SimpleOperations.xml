@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=100&pluginVersion=1.2.0.1]]></url><name>Simple Operations</name><version>1.2.0.1</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=100&pluginVersion=1.2.0.1]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1049]]></icon_url><image_url></image_url><description><![CDATA[add, difference, etc between 2 sequences
+absolute value, inversion, etc. for 1 sequence]]></description><classname><![CDATA[plugins.spop.simpleoperations.SimpleOperations]]></classname><author><![CDATA[spop - Sorin Pop]]></author><changelog><![CDATA[-
+Version 1.2.0.1
+Date 2012-06-21 10:32:28
+
+minor bug interface fixed
+
+-
+Version 1.2.0.0
+Date 2012-06-21 10:19:55
+
+plugin ready for Block programming 
+
+-
+Version 1.1.0.0
+Date 2012-03-15 16:51:02
+
+add 1 sequence operation
+
+-
+Version 1.0.0.4
+Date 2012-02-27 14:52:19
+
+minor correction
+
+-
+Version 1.0.0.3
+Date 2012-02-20 16:27:23
+
+bug fix
+
+-
+Version 1.0.0.2
+Date 2012-02-20 15:48:11
+
+matching the EzPlug update
+
+-
+Version 1.0.0.1
+Date 2011-05-06 10:58:14
+
+
+
+-
+Version 1.0.0.0b
+Date 2011-05-06 10:48:25
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Simple_Operations]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency><dependency><classname>plugins.adufour.protocols.Protocols</classname></dependency></dependencies></root>

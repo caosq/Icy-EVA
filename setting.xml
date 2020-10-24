@@ -1,0 +1,313 @@
+<root>
+<section name="icy">
+<section name="workspaces">
+<section name="local">
+<section name="actives">
+<key name="Detection" value="true"/>
+<key name="Processing" value="true"/>
+<key name="Tools" value="true"/>
+</section>
+</section>
+<section name="online"/>
+</section>
+<section name="general">
+<section name="toolTips">
+<key name="mainMenuTip" value="false"/>
+</section>
+<section name="confirms">
+<key name="exit" value="true"/>
+</section>
+<section name="roiOverlay"/>
+<key name="userLogin" value=""/>
+<key name="userName" value=""/>
+<section name="ROIPanel">
+<section name="view">
+<section name="Sum intensity"/>
+<section name="Interior"/>
+<section name="Max intensity"/>
+<section name="Entropy"/>
+<section name="Position C"/>
+<section name="Name"/>
+<section name="Position T"/>
+<section name="2nd axis"/>
+<section name="3rd Diameter"/>
+<section name="Size C"/>
+<section name="Color"/>
+<section name="Contrast"/>
+<section name="Area"/>
+<section name="Volume"/>
+<section name="Size T"/>
+<section name="Size Y"/>
+<section name="Pitch"/>
+<section name="Size Z"/>
+<section name="Icon"/>
+<section name="Size X"/>
+<section name="Roll"/>
+<section name="1st Diameter"/>
+<section name="Min intensity"/>
+<section name="1st axis"/>
+<section name="3rd axis"/>
+<section name="Read only"/>
+<section name="2nd Diameter"/>
+<section name="Yaw"/>
+<section name="Sphericity"/>
+<section name="Mean intensity"/>
+<section name="Contour"/>
+<section name="Standard deviation"/>
+<section name="Opacity"/>
+<section name="Convexity"/>
+<section name="ASM"/>
+<section name="Position Y"/>
+<section name="Perimeter"/>
+<section name="Position Z"/>
+<section name="Position X"/>
+<section name="Mass center T"/>
+<section name="Mass center X"/>
+<section name="Feret"/>
+<section name="Mass center Z"/>
+<section name="Mass center Y"/>
+<section name="Mass center C"/>
+<section name="Roundness"/>
+<section name="Homogeneity"/>
+<section name="Group id"/>
+<section name="Surface area"/>
+</section>
+<section name="export"/>
+</section>
+<key name="lastUpdateCheckTime" value="1524215555210"/>
+<key name="guiFontSize" value="12"/>
+<key name="sequencePersistence" value="true"/>
+<key name="saveNewSequence" value="false"/>
+<key name="autoUpdate" value="true"/>
+<key name="usageStatsReport" value="true"/>
+<key name="alwaysOnTop" value="false"/>
+<key name="detached" value="false"/>
+<key name="guiSkin" value="Creme Coffee"/>
+</section>
+<section name="canvas">
+<section name="Canvas2D"/>
+<key name="mouseWheelSensibility" value="5"/>
+<key name="invertMouseWheelAxis" value="false"/>
+<key name="filtering" value="false"/>
+<section name="vtkCanvas">
+<key name="boundingBoxGrid" value="true"/>
+<key name="boundingBox" value="true"/>
+<key name="axis" value="true"/>
+<key name="boundingBoxRules" value="true"/>
+<key name="boundingBoxLabels" value="true"/>
+</section>
+</section>
+<section name="network">
+<key name="proxySetting" value="1"/>
+<key name="proxyHTTPHost" value=""/>
+<key name="proxyHTTPPort" value="80"/>
+<key name="proxyHTTPSHost" value=""/>
+<key name="proxyHTTPSPort" value="447"/>
+<key name="proxyFTPHost" value=""/>
+<key name="proxyFTPPort" value="21"/>
+<key name="proxySOCKSHost" value=""/>
+<key name="proxySOCKSPort" value="1080"/>
+<key name="proxyAuthentication" value="false"/>
+<key name="proxyUser" value=""/>
+<key name="proxyPassword" value=""/>
+</section>
+<section name="chat">
+<key name="nickname" value="guest1452"/>
+<key name="desktopOverlay" value="false"/>
+<key name="realname" value="guest1452"/>
+<key name="userPassword" value=""/>
+<key name="extraChannels" value=""/>
+<key name="autoConnect" value="true"/>
+<key name="showStatusMessages" value="false"/>
+<key name="desktopChannels" value="icy"/>
+</section>
+<section name="repositories">
+<section name="repos0">
+<key name="name" value="default"/>
+<key name="location" value="http://icy.bioimageanalysis.org/repository/"/>
+<key name="enabled" value="true"/>
+<key name="supportParam" value="true"/>
+<section name="authentication">
+<key name="login" value=""/>
+<key name="password" value=""/>
+<key name="enabled" value="false"/>
+</section>
+</section>
+</section>
+<section name="plugin">
+<section name="local"/>
+<section name="online"/>
+<section name="plugins.tprovoost.Microscopy.MicroManagerForIcy.MicromanagerPlugin">
+<section name="StageMover"/>
+<key name="displayAcquisition" value="true"/>
+<key name="storeLastAcquisition" value="true"/>
+</section>
+<key name="autoUpdate" value="true"/>
+<key name="allowBeta" value="false"/>
+</section>
+<section name="loader">
+<section name="entry0">
+<key name="nbFile" value="1"/>
+<key name="file0" value="D:/ls/bobo - 123456 - 15_6_2015 - gsh - 4/00002.dcm"/>
+</section>
+<section name="entry1">
+<key name="nbFile" value="1"/>
+<key name="file0" value="D:/ls/bobo - 123456 - 15_6_2015 - gsh - 4/00001.dcm"/>
+</section>
+<section name="entry2">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry3">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry4">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry5">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry6">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry7">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry8">
+<key name="nbFile" value="0"/>
+</section>
+<section name="entry9">
+<key name="nbFile" value="0"/>
+</section>
+</section>
+<key name="maxMemory" value="6208"/>
+<key name="id" value="130468009"/>
+<key name="os" value="win64"/>
+<key name="clientCpuNumber" value="2"/>
+<key name="clientTotalMemory" value="8588681216"/>
+<key name="appFolder" value="F:/laoc/EVA-培训材料V2/EVA-SDK/icy/Icy-1.9.2.0"/>
+<key name="version" value="1.9.2.0"/>
+<key name="lastUploadDate" value="1497056356350"/>
+<section name="gui.histo"/>
+<section name="frame">
+<section name="imageSaver"/>
+</section>
+</section>
+<section name="plugins">
+<section name="tprovoost">
+<section name="Microscopy">
+<section name="MicroManagerForIcy">
+<section name="MicromanagerPlugin">
+<key name="libray_path" value="E:\Program Files\Micro-Manager-1.4/"/>
+<section name="CFGFiles">
+<key name="nbfiles" value="4"/>
+<key name="cfgfile0" value="E:\Program Files\Micro-Manager-1.4\MMConfig_demo.cfg"/>
+<key name="cfgfile1" value="E:\Program Files\Micro-Manager-1.4\MMConfig_laoc.cfg"/>
+<key name="cfgfile2" value="E:\Program Files\Micro-Manager-1.4\MMConfig_pico_only.cfg"/>
+<key name="cfgfile3" value="E:\Program Files\Micro-Manager-1.4\MMConfig_demo2.cfg"/>
+</section>
+</section>
+</section>
+</section>
+</section>
+<section name="plugins.adufour.protocols.Protocols">
+<key name="protocolFolder" value="E:\Program Files\icy-1.9.1.0\protocols"/>
+</section>
+<section name="plugins.tprovoost.scripteditor.main.ScriptEditorPlugin"/>
+<section name="Annotation"/>
+</section>
+<section name="frame">
+<section name="main">
+<key name="XE" value="-1534"/>
+<key name="YE" value="65"/>
+<key name="WidthE" value="1366"/>
+<key name="HeightE" value="728"/>
+<key name="MaximizedE" value="true"/>
+<key name="previousState" value="true"/>
+</section>
+<section name="inspector">
+<key name="XC" value="1292"/>
+<key name="YC" value="0"/>
+<key name="XE" value="600"/>
+<key name="YE" value="140"/>
+<key name="XI" value="600"/>
+<key name="YI" value="140"/>
+<key name="WidthC" value="308"/>
+<key name="HeightC" value="746"/>
+<key name="WidthE" value="300"/>
+<key name="HeightE" value="600"/>
+<key name="WidthI" value="300"/>
+<key name="HeightI" value="600"/>
+<key name="Panelized" value="true"/>
+<key name="Externalized" value="false"/>
+<key name="MaximizedI" value="false"/>
+<key name="MaximizedE" value="false"/>
+</section>
+<section name="roiPanel">
+<key name="XC" value="4"/>
+<key name="YC" value="31"/>
+<key name="XE" value="100"/>
+<key name="YE" value="100"/>
+<key name="XI" value="100"/>
+<key name="YI" value="100"/>
+<key name="WidthC" value="300"/>
+<key name="HeightC" value="656"/>
+<key name="WidthE" value="400"/>
+<key name="HeightE" value="600"/>
+<key name="WidthI" value="400"/>
+<key name="HeightI" value="600"/>
+<key name="Panelized" value="true"/>
+<key name="Externalized" value="false"/>
+<key name="MaximizedI" value="false"/>
+<key name="MaximizedE" value="false"/>
+</section>
+<section name="outputConsole">
+<key name="XC" value="4"/>
+<key name="YC" value="31"/>
+<key name="XE" value="200"/>
+<key name="YE" value="200"/>
+<key name="XI" value="200"/>
+<key name="YI" value="200"/>
+<key name="WidthC" value="300"/>
+<key name="HeightC" value="656"/>
+<key name="WidthE" value="400"/>
+<key name="HeightE" value="300"/>
+<key name="WidthI" value="400"/>
+<key name="HeightI" value="300"/>
+<key name="Panelized" value="true"/>
+<key name="Externalized" value="false"/>
+<key name="MaximizedI" value="false"/>
+<key name="MaximizedE" value="false"/>
+</section>
+<section name="chatPanel">
+<key name="XC" value="4"/>
+<key name="YC" value="31"/>
+<key name="XE" value="200"/>
+<key name="YE" value="200"/>
+<key name="XI" value="200"/>
+<key name="YI" value="200"/>
+<key name="WidthC" value="300"/>
+<key name="HeightC" value="656"/>
+<key name="WidthE" value="400"/>
+<key name="HeightE" value="300"/>
+<key name="WidthI" value="400"/>
+<key name="HeightI" value="300"/>
+<key name="Panelized" value="true"/>
+<key name="Externalized" value="false"/>
+<key name="MaximizedI" value="false"/>
+<key name="MaximizedE" value="false"/>
+</section>
+<section name="preference">
+<key name="XE" value="100"/>
+<key name="YE" value="100"/>
+<key name="XI" value="101"/>
+<key name="YI" value="0"/>
+<key name="WidthE" value="640"/>
+<key name="HeightE" value="480"/>
+<key name="WidthI" value="640"/>
+<key name="HeightI" value="480"/>
+<key name="Externalized" value="false"/>
+<key name="MaximizedI" value="false"/>
+<key name="MaximizedE" value="false"/>
+</section>
+</section>
+</root>

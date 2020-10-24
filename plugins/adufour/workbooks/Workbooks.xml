@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=234&pluginVersion=3.4.3.0]]></url><name>Workbooks</name><version>3.4.3.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=234&pluginVersion=3.4.3.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1826]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2037]]></image_url><description><![CDATA[Toolbox to create and manipulate result tables with plug-ins and protocols, and export as text file or to your favorite spreadsheet software]]></description><classname><![CDATA[plugins.adufour.workbooks.Workbooks]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 3.4.3.0
+Date 2017-07-12 16:34:55
+
+Fixed an issue causing the same workbook to fail to save twice (second time would cause an error)
+
+-
+Version 3.4.2.0
+Date 2016-11-18 16:24:25
+
+Added an explicit error message when trying to merge files of different format
+
+-
+Version 3.4.1.0
+Date 2016-09-29 09:56:54
+
+* Fixed an issue when switching pages in the GUI (the formula field would not know what to display)
+* Fixed issue when merging sheets into a text file (was read using the incorrect Workbook format)
+* Some minor housekeeping
+
+-
+Version 3.4.0.0
+Date 2016-07-25 14:44:33
+
+* Workbooks should (finally!) support the XLSX format (and extend beyond the 65535-line limit).
+* Workbooks now depends on the (new) Apache POI plugin
+
+-
+Version 3.3.7.0
+Date 2016-07-12 15:57:57
+
+Added several plotting features:
+- 2-variable histograms
+- 2-variable scatter plots
+- 3-variable scatter plots
+
+-
+Version 3.3.6.0
+Date 2016-07-08 16:05:41
+
+Fixed an issue causing the histogram to focus only on the first sheet of the workbook instead of the active sheet
+
+-
+Version 3.3.5.0
+Date 2016-06-23 17:33:50
+
+Yet another attempt to improve the histogram display
+
+-
+Version 3.3.4.0
+Date 2016-06-23 15:23:02
+
+Improved the way histogram range is calculated
+
+-
+Version 3.3.3.0
+Date 2016-06-10 14:18:40
+
+Fixed an issue causing boolean cell values (false/true) to display as "0.0"
+
+-
+Version 3.3.2.0
+Date 2016-06-01 15:32:36
+
+Another potential fix for the Windows-centric file merging issues...
+
+-
+Version 3.3.1.0
+Date 2016-05-26 12:17:49
+
+Attempt to fix the "file opened" issue on Windows
+
+-
+Version 3.3.0.0
+Date 2016-05-26 11:52:03
+
+* Add a utility function to collect all numeric values from a given column
+* EXPERIMENTAL: new plotting functionality (currently provides 1D histogram plots for any column)
+
+-
+Version 3.2.4.0
+Date 2016-05-18 13:41:15
+
+Ugly Bugfix to the latest class loading issue: reverting back to the (legacy) XLS format (and its limitations, most notably the limit in maximum number of lines)
+
+-
+Version 3.2.3.1
+Date 2016-05-18 10:27:22
+
+Re-uploaded jar file
+
+-
+Version 3.2.3.0
+Date 2016-04-29 10:48:50
+
+Updated to the latest version of the POI library (brought by Icy 1.8)
+
+-
+Version 3.2.2.0
+Date 2016-02-11 09:06:17
+
+New API to remove all rows in a sheet
+
+-
+Version 3.2.1.0
+Date 2016-02-10 10:28:30
+
+Fixed a cell-formatting issue
+
+-
+Version 3.2.0.0
+Date 2016-01-12 15:50:49
+
+* Improved support for XSSF (XLSX) format
+* Included XMLBeans 2.6.0 binaires into archive
+* Included DOM4J 2.0.0-RC1 binaries into archive
+
+-
+Version 3.1.4.0
+Date 2015-12-22 14:50:49
+
+Fixed an issue causing column sorting not to work properly
+
+-
+Version 3.1.3.0
+Date 2015-12-14 11:38:08
+
+* New: Workbooks.open(File) and Workbooks.open(String)
+* Added test method to test static/script access (useful for API learners)
+
+-
+Version 3.1.2.0
+Date 2015-10-26 14:14:36
+
+Merge options are now offered wen saving workbooks in standalone mode
+
+-
+Version 3.1.1.0
+Date 2015-07-29 09:47:34
+
+Display a proper error message when no workbook is available to save
+
+-
+Version 3.1.0.0
+Date 2015-07-11 19:48:45
+
+* Added color support
+* Fixed incorrect cell value displayed after sorting rows
+* Cell background color is now displayed in the application
+
+-
+Version 3.0.1.0
+Date 2015-07-06 14:00:41
+
+The open button is now hidden for read-only editors
+
+-
+Version 3.0.0.0
+Date 2015-06-30 01:33:41
+
+A major update for some major new features!
+* Reworked editor component:
+ - Tables are now preserved instead of being recreated on every update (*much* faster)
+ - Integrated load/save buttons
+ - Fixed column sorting
+ - Column selector remains visible after showing/hiding a column
+* Plugin uses the standard EzPlug skin
+* New high-level API to manipulate workbook  sheets
+* Export is now possible as text or spreadsheet (to match the WorkbookToFile block)
+* Other performance improvements and code cleaning
+
+-
+Version 2.3.5.0
+Date 2015-03-19 13:54:24
+
+Fixed the value sorting process when clicking on a column header
+
+-
+Version 2.3.4.0
+Date 2015-03-04 13:59:28
+
+
+
+-
+Version 2.3.3.0
+Date 2015-01-30 13:57:14
+
+Fixed an issue with some empty cells
+
+-
+Version 2.3.2.0
+Date 2015-01-13 10:58:20
+
+Fixed 4000 cell-style limitation (only a handful are actually ever used)
+
+-
+Version 2.3.1.0
+Date 2015-01-12 10:49:59
+
+Fixed the name of an enumeration variable (renamed by mistake)
+
+-
+Version 2.3.0.0
+Date 2015-01-11 23:50:25
+
+* Added static methods for script access
+* Workbooks can now be merged when saved to disk
+* Text export adjusted to mark sheet names with "=="
+* Multiple sheets will be read from text files if marked with "=="
+
+-
+Version 2.2.0.0
+Date 2015-01-08 16:29:53
+
+* Fixed formulas not working properly
+* Added row header
+* Added option to use the first data row as header (useful for sorting purposes)
+* Formula box is now always visible (it remains not editable)
+
+-
+Version 2.1.0.0
+Date 2015-01-07 15:45:09
+
+Fixed an issue where some rows would sometimes not display (although they exist in the data table)
+
+-
+Version 2.0.2.0
+Date 2014-12-02 17:56:08
+
+Improved error messages on save failure
+
+-
+Version 2.0.1.0
+Date 2014-10-21 23:52:01
+
+Removed deprecated calls
+
+-
+Version 2.0.0.0
+Date 2014-02-11 09:35:23
+
+Improved graphical interface:
+ - More responsive when refreshing
+ - Columns can be hidden
+WorkbookToFile block:
+ - Option to save as spreadsheet or text
+ - Text file is now tab-delimited
+ - Now accessible within scripts
+
+-
+Version 1.0.0.1
+Date 2013-01-28 12:59:12
+
+Updated plugin classname
+
+-
+Version 1.0.0.0
+Date 2013-01-28 11:46:10
+
+Cleaned project (renamed from POI) and fixed dependencies (EzPlug was missing)
+
+-
+Version 0.0.1.0
+Date 2013-01-11 17:39:01
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Workbooks]]></web><dependencies><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.poi.POI</classname></dependency></dependencies></root>

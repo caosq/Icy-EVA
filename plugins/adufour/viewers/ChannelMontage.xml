@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=252&pluginVersion=2.4.6.0]]></url><name>Channel Montage</name><version>2.4.6.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=252&pluginVersion=2.4.6.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3671]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2158]]></image_url><description><![CDATA[View your multi-channel data as a montage with one image per channel plus a merged, color channel (useful to create figures for communication)]]></description><classname><![CDATA[plugins.adufour.viewers.ChannelMontage]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 2.4.6.0
+Date 2016-12-11 15:49:27
+
+Fixed an issue caused when the image is not yet loaded when opening the viewer
+
+-
+Version 2.4.5.0
+Date 2015-07-30 18:04:47
+
+Fixed a bug causing the screenshot to fail on a movie
+
+-
+Version 2.4.4.0
+Date 2015-06-09 14:08:38
+
+* Upgraded to 1.6.1.1
+* Fixed a multi-threading issue
+
+-
+Version 2.4.3.0
+Date 2014-12-01 13:07:55
+
+Fixed the previous update (screenshot was cut along the Y axis)
+
+-
+Version 2.4.2.0
+Date 2014-12-01 12:51:34
+
+* Better solution to the (previous) alpha issue: no change, just cleaner
+* Adjusted screenshot to remove extra space outside the main view
+
+-
+Version 2.4.1.0
+Date 2014-11-27 11:08:32
+
+Fixed a display issue with 4-channel images
+
+-
+Version 2.4.0.0
+Date 2014-07-10 12:13:37
+
+Improved user interface to allow manual adjustment of both the image size and the margin
+
+-
+Version 2.3.1.0
+Date 2014-05-12 20:43:01
+
+Reduced memory footprint (should improve performance on 32 bit systems)
+
+-
+Version 2.3.0.0
+Date 2014-02-28 12:25:53
+
+* Added scrollbar to browse the view
+* Added support for the "remove channel" operation
+* New: possibility to lock the layout horizontally instead of rearranging the views within the available space.
+
+-
+Version 2.2.0.0
+Date 2013-11-12 15:21:44
+
+New: screenshot support (minimal)
+
+-
+Version 2.1.1.0
+Date 2013-10-16 17:52:09
+
+GUI enhancements (mouse wheel zoom, icons and labels)
+
+-
+Version 2.1.0.0
+Date 2013-10-16 14:43:15
+
+* Reworked canvas implementation (switched from heavy Canvas2D to lighter IcyCanvas2D)
+* ROI can now be edited with no constraint on the "Escape" key
+* Mouse image position is displayed
+* Toolbar is now in the viewer's toolbar
+
+-
+Version 2.0.0.0
+Date 2013-10-16 00:23:45
+
+* Plugin has now become a viewer (accessible from the viewer's drop-down list).
+* Improved figure placement
+* Support for grayscale views
+* Support for ROI editing
+
+-
+Version 1.0.0.0
+Date 2013-05-07 17:03:42
+
+Now uses the existing color maps and user adjusted contrast from the original viewer.
+
+-
+Version 0.0.1.0
+Date 2013-05-07 14:59:41
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Channel_Montage]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency></dependencies></root>

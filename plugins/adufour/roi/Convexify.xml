@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=310&pluginVersion=2.0.3.0]]></url><name>Convexify ROI</name><version>2.0.3.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=310&pluginVersion=2.0.3.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3433]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3434]]></image_url><description><![CDATA[Creates convex versions of regions of interests in 2D or 3D using the QuickHull library.]]></description><classname><![CDATA[plugins.adufour.roi.Convexify]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 2.0.3.0
+Date 2016-04-28 19:10:12
+
+3D convex ROI are now returned as polygonal meshes instead of areas (to match the 2D case)
+
+-
+Version 2.0.2.0
+Date 2016-03-08 16:48:44
+
+Adjust the name of the created ROI to match the input
+
+-
+Version 2.0.1.0
+Date 2015-12-10 09:32:51
+
+Simplify the creation of the polygon
+
+-
+Version 2.0.0.1
+Date 2015-02-17 19:08:56
+
+Deferred polygonal mesh generation to the "3D Mesh ROI" plugin
+
+-
+Version 2.0.0.0
+Date 2014-11-24 14:41:56
+
+* Fixed enveloppe generation in 3D
+* The plugin can now be used as a standalone plugin (not just in Protocols)
+
+-
+Version 1.0.0.0
+Date 2014-06-05 18:15:49
+
+Stabilised current version for 1.0 release
+
+-
+Version 0.0.1.0
+Date 2014-03-04 17:49:56
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Convexify_ROI]]></web><dependencies><dependency><classname>plugins.adufour.quickhull.QuickHull</classname></dependency><dependency><classname>plugins.adufour.roi.mesh.ROI3DMeshPlugin</classname></dependency><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency></dependencies></root>

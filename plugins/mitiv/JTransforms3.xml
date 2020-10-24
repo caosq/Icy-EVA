@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=385&pluginVersion=0.0.1.2]]></url><name>JTransforms3</name><version>0.0.1.2</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=385&pluginVersion=0.0.1.2]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[JTransforms3 fft by Piotr Wendykier
+
+https://sites.google.com/site/piotrwendykier/software]]></description><classname><![CDATA[plugins.mitiv.JTransforms3]]></classname><author><![CDATA[mitiv - CRAL]]></author><changelog><![CDATA[-
+Version 0.0.1.2
+Date 2015-09-04 11:02:02
+
+Exiting beta
+
+-
+Version 0.0.1.1b
+Date 2015-07-03 16:06:40
+
+
+
+-
+Version 0.0.1.0b
+Date 2015-07-03 15:50:47
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/JTransforms3]]></web><dependencies><dependency><classname>plugins.mitiv.JLargeArrays</classname></dependency></dependencies></root>

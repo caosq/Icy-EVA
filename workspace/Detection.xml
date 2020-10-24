@@ -1,0 +1,40 @@
+<root description="Detection and tracking tools" name="Detection">
+<task name="Detection &amp; Tracking">
+<band name="Segmentation">
+<item classname="plugins.adufour.thresholder.Thresholder" priority="top"/>
+<item classname="plugins.adufour.connectedcomponents.ConnectedComponents" priority="top"/>
+<item classname="plugins.adufour.hierarchicalkmeans.HierarchicalKMeans" priority="top"/>
+<item classname="plugins.tprovoost.bestthreshold.BestThreshold" priority="med"/>
+<item classname="plugins.nherve.colorquantization.KMeansColorQuantization" priority="med"/>
+<item classname="plugins.nherve.texseg.TextureSegmentation" priority="med"/>
+<item classname="plugins.jmutterer.plantSeg.PlantSeg" priority="med"/>
+<item classname="plugins.adufour.roi.LabelExtractor" priority="med"/>
+<item classname="plugins.tboudier.watershed3D.WatershedSeeded3D" priority="med"/>
+</band>
+<band name="Detection">
+<item classname="plugins.adufour.activecontours.ActiveContours" priority="top"/>
+<item classname="plugins.fab.spotDetector.SpotDetector" priority="top"/>
+<item classname="plugins.big.bigsnake.BIGSnake" priority="med"/>
+<item classname="plugins.big.bigsnake3d.BIGSnake3D" priority="med"/>
+<item classname="plugins.big.steerablej.FeatureDetector" priority="med"/>
+</band>
+<band name="Tracking">
+<item classname="plugins.nchenouard.particletracking.SpotTrackingPlugin" priority="top"/>
+<item classname="plugins.fab.trackmanager.TrackManager" priority="top"/>
+<item classname="plugins.nchenouard.kymographtracker.KymographTracker" priority="top"/>
+<item classname="plugins.lagache.etrack.eTrack" priority="top"/>
+<item classname="plugins.fab.MiceProfiler.MiceProfilerTracker" priority="med"/>
+<item classname="plugins.fab.MiceProfiler.MiceProfilerLabelAnalyser" priority="med"/>
+<item classname="plugins.fab.MiceProfiler.MiceProfilerVideoLabelMaker" priority="med"/>
+<item classname="plugins.adufour.tracking.ManualTracking" priority="low"/>
+</band>
+<band name="Misc">
+<item classname="plugins.adufour.filtering.FilterToolbox" priority="top"/>
+<item classname="plugins.vannary.contourdetection.ContourDetection" priority="top"/>
+<item classname="plugins.lagache.colocalizationstudio.ColocalizationStudio" priority="top"/>
+<item classname="plugins.nchenouard.tvdenoising.TVDenoising" priority="med"/>
+<item classname="plugins.weiss.StructureTensor2D.StructureTensor2D" priority="med"/>
+<item classname="plugins.weiss.StructureTensor3D.StructureTensor3D" priority="med"/>
+</band>
+</task>
+</root>

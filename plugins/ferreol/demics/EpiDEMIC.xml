@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=441&pluginVersion=1.1.0.0]]></url><name>EpiDEMIC</name><version>1.1.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=441&pluginVersion=1.1.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4666]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4667]]></image_url><description><![CDATA[Epifluorescence DEconvolution MICroscopy is a blind deconvolution tool for widefield fluorescence microscopy]]></description><classname><![CDATA[plugins.ferreol.demics.EpiDEMIC]]></classname><author><![CDATA[ferreol - Ferreol Soulez]]></author><changelog><![CDATA[-
+Version 1.1.0.0
+Date 2018-03-07 11:33:30
+
+bump version to correspond to the github release
+
+-
+Version 0.0.1.13
+Date 2017-10-11 07:28:48
+
+Really fix reset PSF bug 
+
+-
+Version 0.0.1.12
+Date 2017-09-20 10:12:06
+
+Fix reset PSF bug
+
+-
+Version 0.0.1.11
+Date 2017-09-19 14:11:22
+
+fix debug symbol
+
+-
+Version 0.0.1.10
+Date 2017-08-30 20:19:44
+
+Fix positivity flag bug in protocol. Thanks to A. Dufour
+
+-
+Version 0.0.1.9
+Date 2017-05-22 11:22:11
+
+Change Emergency stop
+Fix visualization during computation
+
+-
+Version 0.0.1.8
+Date 2017-05-16 12:04:11
+
+
+
+-
+Version 0.0.1.7
+Date 2017-05-16 11:36:25
+
+
+
+-
+Version 0.0.1.6
+Date 2017-05-10 13:54:08
+
+
+
+-
+Version 0.0.1.5
+Date 2017-03-29 21:39:17
+
+
+
+-
+Version 0.0.1.4
+Date 2017-03-22 14:28:45
+
+
+
+-
+Version 0.0.1.3
+Date 2017-03-15 21:07:16
+
+
+
+-
+Version 0.0.1.2
+Date 2017-03-15 08:47:44
+
+
+
+-
+Version 0.0.1.1b
+Date 2017-03-03 16:21:14
+
+
+
+-
+Version 0.0.1.0b
+Date 2017-03-03 15:42:39
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/EpiDEMIC]]></web><dependencies><dependency><classname>plugins.mitiv.TiPiSDK</classname></dependency><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency></dependencies></root>

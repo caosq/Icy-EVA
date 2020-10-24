@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=414&pluginVersion=1.0.1.0]]></url><name>ROI to detection</name><version>1.0.1.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=414&pluginVersion=1.0.1.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4166]]></icon_url><image_url></image_url><description><![CDATA[This plugin / block allow to convert a set of ROI into a DetectionResult object containing a set of Detection.]]></description><classname><![CDATA[plugins.stef.tools.ROIToDetection]]></classname><author><![CDATA[stef - Stephane Dallongeville]]></author><changelog><![CDATA[-
+Version 1.0.1.0
+Date 2016-11-17 14:57:32
+
+Added sequence and name information to DetectionResult object.
+
+-
+Version 1.0.0.0
+Date 2016-07-26 15:29:59
+
+Initial release
+
+-
+Version 0.0.1.0
+Date 2016-07-26 15:26:59
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/ROI_to_detection]]></web><dependencies></dependencies></root>

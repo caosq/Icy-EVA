@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=377&pluginVersion=0.0.1.1]]></url><name>Webcam Snap</name><version>0.0.1.1</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=377&pluginVersion=0.0.1.1]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3667]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3668]]></image_url><description><![CDATA[Displays and processes live webcam image using protocols.
+
+The processing protocol should start and end with an 'Image Passing Block'.
+
+This plugin was created during the 2nd ICY Coding Party, May 2015, with help from Alexandre Dufour, Stephane Dallongeville and Fabrice de Chaumont.  ]]></description><classname><![CDATA[plugins.jmutterer.webcam.WebcamSnap]]></classname><author><![CDATA[jmutterer - Jerome Mutterer]]></author><changelog><![CDATA[-
+Version 0.0.1.1
+Date 2015-06-03 09:53:49
+
+fixed : path to protocols folder was hardcoded
+
+-
+Version 0.0.1.0
+Date 2015-06-02 15:24:08
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Webcam_Snap]]></web><dependencies><dependency><classname>plugins.jmutterer.imagepassingblock.ImagePassingBlock</classname></dependency><dependency><classname>plugins.stef.library.WebcamCaptureLibraryPlugin</classname></dependency></dependencies></root>

@@ -1,0 +1,1398 @@
+2017-06-10T08:59:49.755563 tid1548 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170610T085949_pid1608.txt
+2017-06-10T08:59:49.755563 tid1548 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-10T08:59:49.766564 tid1548 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-10T08:59:49.772564 tid1548 [IFO,App] User: Administrator
+2017-06-10T08:59:49.772564 tid1548 [IFO,App] Host: MS-20170220QNJB
+2017-06-10T08:59:49.772564 tid1548 [IFO,App] MM Studio version: 1.4.22
+2017-06-10T08:59:49.772564 tid1548 [IFO,App] MMCore version 8.1.0
+2017-06-10T08:59:49.772564 tid1548 [IFO,App] Device API version 65, Module API version 10
+2017-06-10T08:59:49.773564 tid1548 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-10T08:59:49.773564 tid1548 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-10T08:59:49.776564 tid1548 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-10T08:59:49.776564 tid1548 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-10T08:59:50.771621 tid1548 [IFO,App] Finished waiting for plugins to load
+2017-06-10T08:59:50.791622 tid1548 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-10T08:59:50.791622 tid1548 [dbg,Core] Will unload all devices
+2017-06-10T08:59:50.791622 tid1548 [IFO,Core] Did unload all devices
+2017-06-10T08:59:50.791622 tid1548 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-10T08:59:50.794623 tid1548 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-10T08:59:50.794623 tid1548 [dbg,Core] Will load device COM15 from SerialManager
+2017-06-10T08:59:50.795623 tid1548 [IFO,Core] Did load device COM15 from SerialManager; label = COM15
+2017-06-10T08:59:50.795623 tid1548 [dbg,Core] Will load device EVA_NDE_Grbl-Hub from EVA_NDE
+2017-06-10T08:59:50.797623 tid1548 [IFO,Core] Did load device EVA_NDE_Grbl-Hub from EVA_NDE; label = EVA_NDE_Grbl-Hub
+2017-06-10T08:59:50.797623 tid1548 [dbg,Core] Will load device XYStage from EVA_NDE
+2017-06-10T08:59:50.798623 tid1548 [IFO,Core] Did load device XYStage from EVA_NDE; label = XYStage
+2017-06-10T08:59:50.798623 tid1548 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-10T08:59:50.801623 tid1548 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-10T08:59:50.801623 tid1548 [dbg,Core] Will load device Pico from Picoscope
+2017-06-10T08:59:50.801623 tid1548 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-10T08:59:50.801623 tid1548 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Will set property "Port" to "COM15"
+2017-06-10T08:59:50.801623 tid1548 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Did set property "Port" to "COM15"
+2017-06-10T08:59:50.801623 tid1548 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "500.0000"
+2017-06-10T08:59:50.801623 tid1548 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "500.0000"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Will set property "BaudRate" to "9600"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Did set property "BaudRate" to "9600"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Will set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Did set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Will set property "Handshaking" to "Off"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Did set property "Handshaking" to "Off"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Will set property "Parity" to "None"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Did set property "Parity" to "None"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Will set property "StopBits" to "1"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Did set property "StopBits" to "1"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Will set property "Verbose" to "1"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core:dev:COM15] Did set property "Verbose" to "1"
+2017-06-10T08:59:50.802623 tid1548 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-10T08:59:50.802623 tid1548 [IFO,Core] Will initialize 5 devices
+2017-06-10T08:59:50.802623 tid1548 [IFO,Core] Will initialize device COM15
+2017-06-10T08:59:50.805623 tid1548 [dbg,dev:COM15] Attempting to set baud of COM15 to 9600
+2017-06-10T08:59:50.807623 tid1548 [dbg,dev:COM15] Attempting to set flow of COM15 to none
+2017-06-10T08:59:50.808623 tid1548 [dbg,dev:COM15] Attempting to set parity of COM15 to none
+2017-06-10T08:59:50.810624 tid1548 [dbg,dev:COM15] Attempting to set stopBits of COM15 to 1
+2017-06-10T08:59:50.814624 tid1548 [IFO,Core] Did initialize device COM15
+2017-06-10T08:59:50.814624 tid1548 [IFO,Core] Will initialize device EVA_NDE_Grbl-Hub
+2017-06-10T08:59:50.814624 tid1548 [dbg,Core:dev:COM15] Will set property "Verbose" to "0"
+2017-06-10T08:59:50.814624 tid1548 [dbg,Core:dev:COM15] Did set property "Verbose" to "0"
+2017-06-10T08:59:50.814624 tid1548 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-10T08:59:50.814624 tid1548 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-10T08:59:50.814624 tid1548 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-10T08:59:55.814910 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T08:59:55.814910 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T08:59:55.814910 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T08:59:55.814910 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Did initialize device EVA_NDE_Grbl-Hub
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Will initialize device XYStage
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Did initialize device XYStage
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Default xy stage set to XYStage
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Will initialize device PicoHub
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Did initialize device PicoHub
+2017-06-10T08:59:55.814910 tid1548 [IFO,Core] Will initialize device Pico
+2017-06-10T08:59:55.814910 tid1548 [dbg,dev:Pico] Setting Allowed Binning settings
+2017-06-10T09:00:03.888372 tid1548 [IFO,Core] Did initialize device Pico
+2017-06-10T09:00:03.888372 tid1548 [IFO,Core] Default camera set to Pico
+2017-06-10T09:00:03.888372 tid1548 [IFO,Core] Finished initializing 5 devices
+2017-06-10T09:00:03.888372 tid1548 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Will set Core property: Camera = Pico
+2017-06-10T09:00:03.888372 tid1548 [IFO,Core] Default camera set to Pico
+2017-06-10T09:00:03.888372 tid1548 [dbg,App] Notification for Device: Core Property: Camera changed to value: Pico
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Did set Core property: Camera = Pico
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Will set Core property: AutoShutter = 0
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Autoshutter turned off
+2017-06-10T09:00:03.888372 tid1548 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 0
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Did set Core property: AutoShutter = 0
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-SampleLength: preset NewPreset: added setting Pico-SampleLength = 512
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-Timebase: preset NewPreset: added setting Pico-Timebase = 1
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Channel B: preset ON: added setting Pico-Channel B = ON
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Channel B: preset OFF: added setting Pico-Channel B = OFF
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Channel A: preset ON: added setting Pico-Channel A = ON
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Channel A: preset OFF: added setting Pico-Channel A = OFF
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 200: added setting Pico-InputRange = 200
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 50: added setting Pico-InputRange = 50
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 20: added setting Pico-InputRange = 20
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 2000: added setting Pico-InputRange = 2000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 500: added setting Pico-InputRange = 500
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 20000: added setting Pico-InputRange = 20000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 5000: added setting Pico-InputRange = 5000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 10000: added setting Pico-InputRange = 10000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 1000: added setting Pico-InputRange = 1000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-InputRange: preset 100: added setting Pico-InputRange = 100
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-SampleOffset: preset NewPreset: added setting Pico-SampleOffset = 0
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-PixelType: preset 8bit: added setting Pico-PixelType = 8bit
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-PixelType: preset 16bit: added setting Pico-PixelType = 16bit
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group XYStage-MaxVelocity: preset NewPreset: added setting XYStage-MaxVelocity = -62774385622041920000000000000000000000000000000000000000000.0000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-Gain: preset NewPreset: added setting Pico-Gain = 0
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group XYStage-Acceleration: preset NewPreset: added setting XYStage-Acceleration = -62774385622041920000000000000000000000000000000000000000000.0000
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Config group Pico-Offset: preset NewPreset: added setting Pico-Offset = 0
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Waiting for device COM15...
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Finished waiting for device COM15
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Waiting for device EVA_NDE_Grbl-Hub...
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Finished waiting for device EVA_NDE_Grbl-Hub
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Waiting for device XYStage...
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Finished waiting for device XYStage
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Waiting for device PicoHub...
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Finished waiting for device PicoHub
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Waiting for device Pico...
+2017-06-10T09:00:03.888372 tid1548 [dbg,Core] Finished waiting for device Pico
+2017-06-10T09:00:03.889372 tid1548 [dbg,Core] Will update system state cache
+2017-06-10T09:00:03.889372 tid1548 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:03.889372 tid1548 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:03.889372 tid1548 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-10T09:00:03.957375 tid1548 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-10T09:00:03.957375 tid1548 [IFO,Core] Did update system state cache
+2017-06-10T09:00:03.961376 tid1548 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:03.961376 tid1548 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:03.961376 tid1548 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-10T09:00:04.027379 tid1548 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-10T09:00:04.027379 tid1548 [dbg,dev:XYStage] GetPositionSteps(), X=0, Y=0
+2017-06-10T09:00:04.032380 tid1548 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-10T09:00:04.033380 tid1548 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:04.033380 tid1548 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:04.033380 tid1548 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-10T09:00:04.101384 tid1548 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-10T09:00:04.101384 tid1548 [dbg,dev:XYStage] GetPositionSteps(), X=0, Y=0
+2017-06-10T09:00:04.109384 tid1548 [dbg,Core] Will update system state cache
+2017-06-10T09:00:04.109384 tid1548 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:04.109384 tid1548 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-10T09:00:04.109384 tid1548 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-10T09:00:04.174388 tid1548 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-10T09:00:04.174388 tid1548 [IFO,Core] Did update system state cache
+2017-06-10T09:00:04.174388 tid1548 [IFO,App] Finished updating GUI
+2017-06-10T09:00:04.199389 tid1548 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-10T09:00:04.545409 tid1548 [IFO,App] Rebuilding config group table
+2017-06-10T09:00:04.551409 tid1548 [IFO,App] Finished rebuilding config group table
+2017-06-10T09:00:04.623414 tid948 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-10T09:00:04.646415 tid948 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-10T09:00:04.646415 tid948 [IFO,LogManager] Disabling logging to stderr
+2017-06-10T09:00:05.071439 tid1548 [IFO,App] Rebuilding config group table
+2017-06-10T09:00:05.073439 tid1548 [IFO,App] Finished rebuilding config group table
+2017-06-10T09:00:05.135443 tid1548 [IFO,App] Rebuilding config group table
+2017-06-10T09:00:05.137443 tid1548 [IFO,App] Finished rebuilding config group table
+2017-06-10T09:03:45.306036 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:04:00.573909 tid1548 [IFO,App] [UI] SubstanceTitleButton nullclicked in MainFrame.
+2017-06-10T09:04:56.394102 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:05:00.069312 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] Reset!
+2017-06-10T09:05:00.069312 tid1548 [IFO,App] [UI] JButton "Reset" clicked in MainFrame.
+2017-06-10T09:05:06.809698 tid1548 [IFO,App] [UI] JButton "Homing" clicked in MainFrame.
+2017-06-10T09:05:20.441477 tid1548 [IFO,App] [UI]  clicked in JDialog.
+2017-06-10T09:05:22.121573 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "C:\Users\Administrator\Desktop" in HeavyWeightWindow.
+2017-06-10T09:05:23.985680 tid1548 [IFO,App] [UI]  set to "C:\Users\Administrator\Desktop\load" in JDialog.
+2017-06-10T09:05:28.777954 tid1548 [IFO,App] [UI] SubstanceDropDownButton clicked in MainFrame.
+2017-06-10T09:05:29.129974 tid1548 [IFO,App] [UI] SubstanceDropDownButton clicked in MainFrame.
+2017-06-10T09:05:40.637632 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:06:07.654178 tid2972 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:06:07.654178 tid2972 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:06:07.654178 tid2972 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:06:07.654178 tid2972 [ERR,Core:dev:EVA_NDE_Grbl-Hub] Cannot set property "Command" to "$H" [ Error in device "EVA_NDE_Grbl-Hub": Unknown error in the device (1) ]
+2017-06-10T09:06:07.835188 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:06:08.136205 tid1548 [IFO,App] [UI] JRibbonTaskToggleButton clicked in MainFrame.
+2017-06-10T09:06:08.137205 tid1548 [IFO,App] [UI] JRibbonTaskToggleButton clicked in MainFrame.
+2017-06-10T09:06:08.326216 tid1548 [IFO,App] [UI] IcyCommandButton "plugins.tprovoost.note.Annotation" clicked in MainFrame.
+2017-06-10T09:06:08.326216 tid1548 [IFO,App] [UI] IcyDesktopPane clicked in MainFrame.
+2017-06-10T09:06:19.768871 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:06:56.852992 tid1548 [IFO,App] [UI] JButton "Generate Path" clicked in MainFrame.
+2017-06-10T09:07:02.105292 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:07:06.233528 tid1548 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-10T09:07:07.344592 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-10T09:09:30.000751 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:09:33.184933 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:09:44.935606 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:09:47.559756 tid1548 [IFO,App] [UI] JMenu clicked in MainFrame.
+2017-06-10T09:09:53.120074 tid1548 [IFO,App] [UI] JButton "Ok" clicked in MainFrame.
+2017-06-10T09:09:58.963408 tid1548 [IFO,App] [UI] JButton "Generate Path" clicked in MainFrame.
+2017-06-10T09:10:01.039527 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:10:15.118332 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:10:20.791656 tid1548 [IFO,App] Refreshing config group table
+2017-06-10T09:10:20.794657 tid1548 [IFO,App] Finished refreshing config group table
+2017-06-10T09:10:20.794657 tid1548 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-10T09:10:20.868661 tid1548 [IFO,App] Finished updating GUI
+2017-06-10T09:10:23.220795 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:10:24.503869 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:10:25.831945 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:10:27.955066 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:10:33.440380 tid1548 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-10T09:10:34.591446 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-10T09:10:36.905578 tid1548 [IFO,App] [UI] EzInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:10:38.735683 tid1548 [IFO,App] [UI] EzInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:10:43.255941 tid1548 [IFO,App] [UI] JButton "Control Panel" clicked in MainFrame.
+2017-06-10T09:10:49.317288 tid1548 [IFO,App] [UI] JButton "Generate Path" clicked in MainFrame.
+2017-06-10T09:10:51.178394 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:10:56.360691 tid1548 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-10T09:10:57.839775 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-10T09:11:01.699996 tid1548 [IFO,App] [UI] JButton "Ok" clicked in MainFrame.
+2017-06-10T09:11:03.287087 tid1548 [IFO,App] [UI] JButton "Ok" clicked in MainFrame.
+2017-06-10T09:11:04.847176 tid1548 [IFO,App] [UI] JButton "Ok" clicked in MainFrame.
+2017-06-10T09:11:12.021587 tid1548 [IFO,App] [UI] JRibbonTaskToggleButton clicked in MainFrame.
+2017-06-10T09:11:12.894637 tid1548 [IFO,App] [UI] IcyCommandButton "plugins.tprovoost.Microscopy.MicroManagerForIcy.MicromanagerPlugin" clicked in MainFrame.
+2017-06-10T09:11:15.512786 tid1548 [IFO,App] [UI] IcyCommandButton "plugins.tprovoost.Microscopy.MicroManagerForIcy.MicromanagerPlugin" clicked in MainFrame.
+2017-06-10T09:11:17.611906 tid1548 [IFO,App] [UI] IcyCommandButton "plugins.tprovoost.Microscopy.MicroManagerForIcy.MicromanagerPlugin" clicked in MainFrame.
+2017-06-10T09:11:23.320233 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:11:27.794489 tid1548 [IFO,App] [UI]  clicked in JDialog.
+2017-06-10T09:11:29.178568 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "C:\Users\Administrator\Desktop" in HeavyWeightWindow.
+2017-06-10T09:11:31.111678 tid1548 [IFO,App] [UI]  set to "C:\Users\Administrator\Desktop\load" in JDialog.
+2017-06-10T09:11:31.325691 tid1548 [IFO,App] [UI]  set to "C:\Users\Administrator\Desktop\load" in JDialog.
+2017-06-10T09:11:44.432440 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:44.432440 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:44.432440 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:11:44.432440 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:11:44.752459 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:44.752459 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:44.752459 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:11:44.752459 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:11:45.110479 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:45.110479 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:45.110479 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:11:45.110479 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:11:45.411496 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:45.411496 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:45.411496 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:11:45.411496 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:11:45.712514 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:45.712514 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:45.712514 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:11:45.712514 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:11:50.757802 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:50.757802 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:50.757802 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:11:50.757802 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:11:50.757802 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:11:55.821092 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:11:55.821092 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:11:55.821092 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:11:55.821092 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:11:55.821092 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:04.973615 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:04.973615 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:04.973615 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:12:04.973615 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:12:04.973615 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:05.358637 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:05.358637 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:05.358637 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:05.358637 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:05.662655 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:05.662655 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:05.662655 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:05.662655 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:05.963672 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:05.963672 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:05.963672 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:05.963672 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:06.264689 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:06.264689 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:06.264689 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:06.264689 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:06.565706 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:06.565706 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:06.565706 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:06.565706 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:06.866724 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:06.866724 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:06.866724 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:06.866724 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:07.166741 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:07.166741 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:07.166741 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:07.166741 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:07.467758 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:07.467758 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:07.467758 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:07.467758 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:07.768775 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:07.768775 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:07.768775 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:07.768775 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:08.069792 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:08.069792 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:08.069792 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:08.069792 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:08.369810 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:08.369810 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:08.369810 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:08.369810 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:08.669827 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:08.669827 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:08.669827 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:08.669827 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:08.969844 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:08.969844 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:08.969844 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:08.969844 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:09.270861 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:09.270861 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:09.270861 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:09.270861 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:58.648685 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:58.648685 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:58.648685 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:12:58.648685 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:12:58.648685 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:59.021707 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:59.021707 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:59.021707 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:59.021707 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:59.322724 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:59.322724 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:59.322724 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:59.322724 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:59.623741 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:59.623741 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:59.623741 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:59.623741 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:12:59.924758 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:12:59.924758 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:12:59.924758 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:12:59.924758 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:00.224775 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:00.224775 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:00.224775 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:00.224775 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:00.525793 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:00.525793 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:00.525793 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:00.525793 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:00.826810 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:00.826810 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:00.826810 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:00.826810 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:01.127827 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:01.127827 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:01.127827 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:01.127827 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:01.428844 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:01.428844 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:01.428844 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:01.428844 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:01.729862 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:01.729862 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:01.729862 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:01.729862 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:01.801866 tid1548 [IFO,App] [UI] JToolBar clicked in MainFrame.
+2017-06-10T09:13:15.412644 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:15.412644 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:15.412644 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:13:15.412644 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:13:15.412644 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:28.653401 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:28.653401 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:28.653401 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:13:28.653401 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:13:28.653401 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:29.020422 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:29.020422 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:29.020422 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:29.020422 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:29.321440 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:29.321440 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:29.321440 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:29.321440 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:29.621457 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:29.621457 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:29.621457 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:29.621457 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:29.922474 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:29.922474 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:29.922474 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:29.922474 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:30.223491 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:30.223491 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:30.223491 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:30.223491 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:30.524508 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:30.524508 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:30.524508 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:30.524508 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:30.824526 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:30.824526 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:30.824526 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:30.824526 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:31.124543 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:31.124543 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:31.124543 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:31.124543 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:31.424560 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:31.424560 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:31.424560 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:31.424560 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:31.724577 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:31.724577 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:31.724577 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:31.724577 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:32.025594 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:32.025594 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:32.025594 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:32.025594 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:32.326612 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:32.326612 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:32.326612 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:32.326612 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:32.627629 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:32.627629 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:32.627629 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:32.627629 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:32.928646 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:32.928646 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:32.928646 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:32.928646 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:33.229663 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:33.229663 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:33.229663 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:33.229663 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:33.530680 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:33.530680 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:33.530680 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:33.530680 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:33.831698 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:33.831698 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:33.831698 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:33.831698 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:34.131715 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:34.131715 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:34.131715 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:34.131715 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:34.432732 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:34.432732 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:34.432732 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:34.432732 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:34.733749 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:34.733749 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:34.733749 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:34.733749 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:35.034766 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:35.034766 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:35.034766 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:35.034766 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:35.335784 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:13:35.335784 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:13:35.335784 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:13:35.335784 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:13:44.149288 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:13:48.400531 tid1548 [IFO,App] [UI]  clicked in JDialog.
+2017-06-10T09:13:50.150631 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "C:\Users\Administrator\Desktop" in HeavyWeightWindow.
+2017-06-10T09:13:51.729721 tid1548 [IFO,App] [UI]  set to "C:\Users\Administrator\Desktop\load" in JDialog.
+2017-06-10T09:14:01.421276 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:01.421276 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:01.421276 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:14:01.421276 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:14:01.421276 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:01.421276 tid1548 [IFO,App] [UI] JButton "Control Panel" clicked in MainFrame.
+2017-06-10T09:14:11.606858 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:11.606858 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:11.606858 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:14:11.606858 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:14:11.606858 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:11.606858 tid1548 [IFO,App] [UI] JButton "Control Panel" clicked in MainFrame.
+2017-06-10T09:14:16.073114 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:16.073114 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:16.073114 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:16.073114 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:16.414133 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:16.414133 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:16.414133 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:16.414133 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:16.764153 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:16.764153 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:16.764153 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:16.764153 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:17.111173 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:17.111173 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:17.111173 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:17.111173 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:17.458193 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:17.458193 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:17.458193 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:17.458193 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:17.803213 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:17.803213 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:17.803213 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:17.803213 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:18.149232 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:18.149232 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:18.149232 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:18.149232 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:18.498252 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:18.498252 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:18.498252 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:18.498252 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:18.841272 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:18.841272 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:18.841272 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:18.841272 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:19.193292 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:19.193292 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:19.193292 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:19.193292 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:26.374703 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:26.374703 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:26.374703 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:14:26.374703 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:14:26.374703 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:31.410991 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:31.410991 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:31.410991 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:14:31.410991 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:14:31.410991 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:31.856016 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:31.856016 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:31.856016 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:31.856016 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:32.156034 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:32.156034 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:32.156034 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:32.156034 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:32.456051 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:32.456051 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:32.456051 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:32.456051 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:32.756068 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:32.756068 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:32.756068 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:32.756068 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:33.056085 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:33.056085 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:33.056085 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:33.056085 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:33.356102 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:33.356102 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:33.356102 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:33.356102 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:33.656119 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:33.656119 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:33.656119 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:33.656119 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:33.956137 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:33.956137 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:33.956137 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:33.956137 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:34.256154 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:34.256154 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:34.256154 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:34.256154 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:34.556171 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:34.556171 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:34.556171 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:34.556171 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:34.857188 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:34.857188 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:34.857188 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:34.857188 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:35.157205 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:35.157205 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:35.157205 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:35.157205 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:35.457222 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:35.457222 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:35.457222 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:35.457222 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:35.757240 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:35.757240 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:35.757240 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:35.757240 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:36.058257 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:36.058257 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:36.058257 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:36.058257 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:36.358274 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:36.358274 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:36.358274 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:36.358274 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:36.659291 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:36.659291 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:36.659291 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:36.659291 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:36.959308 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:36.959308 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:36.959308 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:36.959308 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:37.260326 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:37.260326 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:37.260326 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:37.260326 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:37.560343 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:37.560343 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:37.560343 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:37.560343 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:37.860360 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:37.860360 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:37.860360 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:37.860360 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:38.160377 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:38.160377 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:38.160377 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:38.160377 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:38.461394 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:38.461394 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:38.461394 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:38.461394 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:38.761411 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:38.761411 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:38.761411 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:38.761411 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:39.062429 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:39.062429 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:39.062429 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:39.062429 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:39.362446 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:39.362446 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:39.362446 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:39.362446 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:39.663463 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:39.663463 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:39.663463 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:39.663463 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:39.963480 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:39.963480 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:39.963480 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:39.963480 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:40.263497 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:40.263497 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:40.263497 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:40.263497 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:40.563514 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:40.563514 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:40.563514 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:40.563514 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:40.863532 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:40.863532 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:40.863532 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:40.863532 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:41.163549 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:14:41.163549 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:14:41.163549 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:14:41.163549 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:14:45.834816 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:14:57.795500 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:15:07.862076 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:15:09.175151 tid1548 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-10T09:15:10.069202 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-10T09:15:11.716296 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:15:13.217382 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:15:29.630321 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:29.630321 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:29.630321 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:15:29.630321 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:15:29.630321 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:33.654551 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:33.654551 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:33.654551 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:33.654551 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:34.129578 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:34.129578 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:34.129578 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:34.129578 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:34.469598 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:34.469598 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:34.469598 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:34.469598 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:34.769615 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:34.769615 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:34.769615 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:34.769615 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:35.069632 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:35.069632 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:35.069632 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:35.069632 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:35.370649 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:35.370649 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:35.370649 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:35.370649 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:35.670666 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:35.670666 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:35.670666 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:35.670666 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:35.971684 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:35.971684 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:35.971684 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:35.971684 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:36.271701 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:36.271701 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:36.271701 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:36.271701 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:36.571718 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:36.571718 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:36.571718 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:36.571718 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:36.872735 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:36.872735 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:36.872735 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:36.872735 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:37.219755 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:37.219755 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:37.219755 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:37.219755 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:37.520772 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:37.520772 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:37.520772 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:37.520772 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:37.821789 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:37.821789 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:37.821789 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:37.821789 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:38.122807 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:38.122807 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:38.122807 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:38.122807 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:38.423824 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:38.423824 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:38.423824 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:38.423824 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:38.723841 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:38.723841 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:38.723841 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:38.723841 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:39.024858 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:39.024858 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:39.024858 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:39.024858 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:39.325876 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:39.325876 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:39.325876 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:39.325876 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:39.626893 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:39.626893 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:39.626893 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:39.626893 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:39.927910 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:39.927910 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:39.927910 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:39.927910 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:40.228927 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:40.228927 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:40.228927 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:40.228927 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:40.528944 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:40.528944 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:40.528944 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:40.528944 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:40.828961 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:40.828961 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:40.828961 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:40.828961 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:41.128979 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:41.128979 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:41.128979 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:41.128979 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:41.428996 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:41.428996 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:41.428996 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:41.428996 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:41.730013 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:41.730013 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:41.730013 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:41.730013 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:42.031030 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:42.031030 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:42.031030 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:42.031030 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:42.332047 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:42.332047 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:42.332047 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:42.332047 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:42.633065 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:42.633065 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:42.633065 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:42.633065 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:42.934082 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:42.934082 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:42.934082 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:42.934082 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:43.235099 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:43.235099 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:43.235099 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:43.235099 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:43.536116 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:43.536116 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:43.536116 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:43.536116 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:43.837134 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:43.837134 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:43.837134 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:43.837134 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:44.137151 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:44.137151 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:44.137151 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:44.137151 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:44.437168 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:44.437168 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:44.437168 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:44.437168 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:44.743185 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:44.743185 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:44.743185 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:44.743185 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:45.044203 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:45.044203 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:45.044203 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:45.044203 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:45.345220 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:45.345220 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:45.345220 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:45.345220 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:45.645237 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:45.645237 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:45.645237 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:45.645237 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:45.946254 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:45.946254 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:45.946254 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:45.946254 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:46.247271 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:46.247271 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:46.247271 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:46.247271 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:46.548289 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:46.548289 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:46.548289 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:46.548289 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:46.848306 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:46.848306 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:46.848306 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:46.848306 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:47.149323 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:47.149323 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:47.149323 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:47.149323 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:47.449340 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:47.449340 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:47.449340 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:47.449340 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:47.749357 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:47.749357 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:47.749357 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:47.749357 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:48.050375 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:48.050375 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:48.050375 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:48.050375 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:48.351392 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:48.351392 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:48.351392 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:48.351392 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:48.652409 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:48.652409 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:48.652409 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:48.652409 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:48.953426 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:48.953426 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:48.953426 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:48.953426 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:49.297446 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:49.297446 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:49.297446 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:49.297446 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:15:54.129722 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:15:54.129722 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:15:54.129722 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:15:54.129722 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:05.493372 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:05.493372 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:05.493372 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:16:05.493372 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:16:05.493372 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:05.868394 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:05.868394 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:05.868394 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:05.868394 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:06.169411 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:06.169411 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:06.169411 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:06.169411 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:06.470428 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:06.470428 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:06.470428 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:06.470428 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:06.771445 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:06.771445 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:06.771445 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:06.771445 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:07.072463 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:07.072463 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:07.072463 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:07.072463 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:07.372480 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:07.372480 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:07.372480 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:07.372480 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:07.672497 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:07.672497 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:07.672497 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:07.672497 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:07.972514 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:07.972514 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:07.972514 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:07.972514 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:08.273531 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:08.273531 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:08.273531 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:08.273531 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:08.573548 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:08.573548 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:08.573548 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:08.573548 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:08.873566 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:08.873566 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:08.873566 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:08.873566 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:09.174583 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:09.174583 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:09.174583 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:09.174583 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:09.475600 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:09.475600 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:09.475600 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:09.475600 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:09.775617 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:09.775617 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:09.775617 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:09.775617 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:10.075634 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:10.075634 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:10.075634 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:10.075634 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:10.375651 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:10.375651 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:10.375651 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:10.375651 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:10.675669 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:10.675669 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:10.675669 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:10.675669 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:10.976686 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:10.976686 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:10.976686 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:10.976686 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:11.277703 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:11.277703 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:11.277703 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:11.277703 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:11.578720 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:11.578720 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:11.578720 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:11.578720 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:11.879737 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:11.879737 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:11.879737 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:11.879737 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:12.180755 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:12.180755 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:12.180755 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:12.180755 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:20.710243 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:20.710243 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:20.710243 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:16:20.710243 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:16:20.710243 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:21.091264 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:21.091264 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:21.091264 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:21.091264 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:30.716815 tid1548 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-10T09:16:33.747988 tid1548 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-10T09:16:40.261361 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:40.261361 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:40.261361 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:16:40.261361 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:16:40.261361 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:42.201472 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:42.201472 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:42.201472 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:42.201472 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:42.700500 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:42.700500 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:42.700500 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:42.700500 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:43.004518 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:43.004518 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:43.004518 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:43.004518 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:43.305535 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:43.305535 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:43.305535 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:43.305535 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:43.611552 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:43.611552 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:43.611552 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:43.611552 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:43.916570 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:43.916570 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:43.916570 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:43.916570 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:44.216587 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:44.216587 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:44.216587 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:44.216587 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:44.516604 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:44.516604 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:44.516604 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:44.516604 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:44.816621 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:44.816621 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:44.816621 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:44.816621 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:45.116639 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:45.116639 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:45.116639 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:45.116639 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:45.416656 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:45.416656 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:45.416656 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:45.416656 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:45.716673 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:45.716673 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:45.716673 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:45.716673 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:46.016690 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:46.016690 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:46.016690 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:46.016690 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:46.316707 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:46.316707 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:46.316707 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:46.316707 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:46.620725 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:46.620725 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:46.620725 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:46.620725 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:46.920742 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:46.920742 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:46.920742 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:46.920742 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:47.220759 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:47.220759 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:47.220759 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:47.220759 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:47.520776 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:47.520776 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:47.520776 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:47.520776 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:47.820793 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:47.820793 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:47.820793 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:47.820793 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:48.120810 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:48.120810 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:48.120810 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:48.120810 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:48.420828 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:48.420828 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:48.420828 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:48.420828 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:48.720845 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:48.720845 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:48.720845 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:48.720845 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:49.020862 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:49.020862 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:49.020862 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:49.020862 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:49.320879 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:49.320879 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:49.320879 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:49.320879 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:49.620896 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:49.620896 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:49.620896 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:49.620896 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:49.920913 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:49.920913 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:49.920913 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:49.920913 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:50.220930 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:50.220930 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:50.220930 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:50.220930 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:50.521948 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:50.521948 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:50.521948 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:50.521948 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:50.821965 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:50.821965 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:50.821965 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:50.821965 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:51.121982 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:51.121982 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:51.121982 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:51.121982 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:51.421999 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:51.421999 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:51.421999 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:51.421999 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:51.722016 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:51.722016 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:51.722016 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:51.722016 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:52.023034 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:52.023034 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:52.023034 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:52.023034 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:52.323051 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:52.323051 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:52.323051 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:52.323051 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:52.623068 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:52.623068 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:52.623068 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:52.623068 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:52.923085 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:52.923085 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:52.923085 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:52.923085 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:53.223102 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:53.223102 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:53.223102 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:53.223102 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:53.523119 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:53.523119 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:53.523119 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:53.523119 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:53.823137 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:53.823137 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:53.823137 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:53.823137 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:54.123154 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:54.123154 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:54.123154 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:54.123154 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:54.423171 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:54.423171 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:54.423171 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:54.423171 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:54.724188 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:54.724188 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:54.724188 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:54.724188 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:55.025205 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:55.025205 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:55.025205 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:55.025205 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:55.326222 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:55.326222 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:55.326222 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:55.326222 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:55.627240 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:55.627240 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:55.627240 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:55.627240 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:55.928257 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:55.928257 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:55.928257 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:55.928257 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:56.281277 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:56.281277 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:56.281277 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:56.281277 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:56.582294 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:56.582294 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:56.582294 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:56.582294 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:56.883312 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:56.883312 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:56.883312 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:56.883312 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:57.183329 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:57.183329 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:57.183329 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:57.183329 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:57.483346 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:57.483346 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:57.483346 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:57.483346 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:57.783363 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:57.783363 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:57.783363 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:57.783363 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:58.084380 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:58.084380 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:58.084380 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:58.084380 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:58.384397 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:58.384397 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:58.384397 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:58.384397 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:58.684415 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:58.684415 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:58.684415 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:58.684415 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:58.984432 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:58.984432 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:58.984432 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:58.984432 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:59.285449 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:59.285449 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:59.285449 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:59.285449 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:59.586466 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:59.586466 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:59.586466 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:59.586466 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:16:59.887483 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:16:59.887483 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:16:59.887483 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:16:59.887483 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:00.188501 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:00.188501 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:00.188501 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:00.188501 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:00.488518 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:00.488518 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:00.488518 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:00.488518 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:00.788535 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:00.788535 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:00.788535 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:00.788535 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:01.088552 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:01.088552 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:01.088552 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:01.088552 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:01.388569 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:01.388569 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:01.388569 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:01.388569 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:01.688586 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:01.688586 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:01.688586 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:01.688586 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:01.988604 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:01.988604 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:01.988604 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:01.988604 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:02.289621 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:02.289621 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:02.289621 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:02.289621 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:02.590638 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:02.590638 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:02.590638 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:02.590638 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:02.890655 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:02.890655 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:02.890655 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:02.890655 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:03.190672 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:03.190672 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:03.190672 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:03.190672 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:03.490689 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:03.490689 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:03.490689 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:03.490689 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:03.790707 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:03.790707 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:03.790707 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:03.790707 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:04.090724 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:04.090724 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:04.090724 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:04.090724 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:14.469317 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:14.469317 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:14.469317 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:17:14.469317 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:17:14.469317 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:14.801336 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:14.801336 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:14.801336 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:14.801336 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:15.102354 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:15.102354 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:15.102354 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:15.102354 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:15.402371 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:15.402371 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:15.402371 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:15.402371 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:20.801680 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:20.801680 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:20.801680 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:20.801680 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:21.107697 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:21.107697 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:21.107697 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:21.107697 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:21.424715 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:21.424715 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:21.424715 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:21.424715 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:27.493062 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:27.493062 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:27.493062 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:17:27.493062 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:17:27.493062 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:27.827081 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:27.827081 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:27.827081 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:27.827081 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:28.128099 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:28.128099 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:28.128099 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:28.128099 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:28.476119 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:28.476119 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:28.476119 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!_
+2017-06-10T09:17:28.476119 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:34.540465 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:34.540465 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:34.540465 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:17:34.540465 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:17:34.540465 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:39.574753 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:39.574753 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:39.574753 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:17:39.574753 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:17:39.574753 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:44.607041 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:44.607041 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:44.607041 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:17:44.607041 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:17:44.607041 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:49.643329 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:17:49.643329 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:17:49.643329 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:17:49.643329 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:17:49.643329 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:17:49.754336 tid1548 [IFO,App] [UI] IcyDesktopPane clicked in MainFrame.
+2017-06-10T09:19:23.035671 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-10T09:19:23.036671 tid1548 [IFO,App] Refreshing config group table
+2017-06-10T09:19:23.037671 tid1548 [IFO,App] Finished refreshing config group table
+2017-06-10T09:19:23.037671 tid1548 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-10T09:19:28.037957 tid1548 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-10T09:19:28.037957 tid1548 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-10T09:19:28.037957 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-10T09:19:28.037957 tid1548 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-10T09:19:28.037957 tid1548 [ERR,Core] Error occurred in device XYStage: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14)
+2017-06-10T09:19:28.038957 tid1548 [IFO,App] Failed to get stage position
+                                   [       ] java.lang.Exception: Error in device "XYStage": Serial command failed.  Is the device connected to the serial port? (14) in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_getXYPosition__SWIG_0(Native Method)
+                                   [       ]   at mmcorej.CMMCore.getXYPosition(CMMCore.java:1182)
+                                   [       ]   at org.micromanager.StaticInfo.refreshValues(StaticInfo.java:133)
+                                   [       ]   at org.micromanager.MMStudio.updateGUI(MMStudio.java:1416)
+                                   [       ]   at org.micromanager.MMStudio.updateGUI(MMStudio.java:1409)
+                                   [       ]   at org.micromanager.ConfigGroupPad$StateTableData.setValueAt(ConfigGroupPad.java:240)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at org.micromanager.utils.StatePresetCellEditor.access$200(StatePresetCellEditor.java:29)
+                                   [       ]   at org.micromanager.utils.StatePresetCellEditor$3.actionPerformed(StatePresetCellEditor.java:154)
+                                   [       ]   at javax.swing.JComboBox.fireActionEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedItem(Unknown Source)
+                                   [       ]   at javax.swing.JComboBox.setSelectedIndex(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mouseReleased(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$500(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-06-10T09:19:28.073959 tid1548 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-10T09:19:31.786171 tid1548 [IFO,App] Finished updating GUI
+2017-06-10T09:20:26.940326 tid1548 [IFO,Core] Did unload all devices
+2017-06-10T09:20:26.940326 tid1548 [IFO,Core] System reset
+2017-06-10T09:20:26.961327 tid1548 [IFO,Core] Core session ended

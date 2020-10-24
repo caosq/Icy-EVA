@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=284&pluginVersion=0.0.1.0]]></url><name>Rescale ROI</name><version>0.0.1.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=284&pluginVersion=0.0.1.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2591]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2592]]></image_url><description><![CDATA[Rescale one or more ROI in a sequence about their center of mass]]></description><classname><![CDATA[plugins.adufour.roi.RescaleROI]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 0.0.1.0
+Date 2013-11-07 20:11:57
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Rescale_ROI]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency></dependencies></root>

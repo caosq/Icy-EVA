@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=49&pluginVersion=1.2.0.2]]></url><name>Color Picker Threshold</name><version>1.2.0.2</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=49&pluginVersion=1.2.0.2]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=143]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=178]]></image_url><description><![CDATA[Image segmentation by representative colors selection. Two versions are available :
+- thresholding
+- positive and negative colors selection and SVM learning]]></description><classname><![CDATA[plugins.nherve.colorpickerthreshold.ColorPickerThreshold]]></classname><author><![CDATA[nherve - Nicolas Hervé]]></author><changelog><![CDATA[-
+Version 1.2.0.2
+Date 2013-03-14 12:17:52
+
+
+
+-
+Version 1.2.0.1
+Date 2011-09-15 11:41:15
+
+
+
+-
+Version 1.2.0.0
+Date 2011-07-28 10:27:09
+
+
+
+-
+Version 1.0.0.9
+Date 2011-04-19 17:14:29
+
+
+
+-
+Version 1.0.0.8
+Date 2011-03-18 16:58:01
+
+
+
+-
+Version 1.0.0.7
+Date 2011-02-17 15:09:06
+
+
+
+-
+Version 1.0.0.6
+Date 2011-02-14 09:51:34
+
+
+
+-
+Version 1.0.0.5
+Date 2011-02-09 17:32:40
+
+
+
+-
+Version 1.0.0.4
+Date 2011-02-04 17:18:47
+
+
+
+-
+Version 1.0.0.3
+Date 2011-02-03 17:53:17
+
+
+
+-
+Version 1.0.0.2
+Date 2011-02-02 18:17:34
+
+
+
+-
+Version 1.0.0.1
+Date 2011-02-01 15:34:29
+
+
+
+-
+Version 1.0.0.0
+Date 2011-01-28 14:50:08
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Color_Picker_Threshold]]></web><dependencies><dependency><classname>plugins.nherve.toolbox.NherveToolbox</classname></dependency><dependency><classname>plugins.nherve.maskeditor.MaskEditor</classname></dependency></dependencies></root>

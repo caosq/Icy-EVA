@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root description="Contains commented plugins to understand how to program plugins for ICY." name="Dev Tutorials">
+<task name="Dev Tutorials">
+<band name="Image Processing">
+<item classname="plugins.tutorial.basics.GenerateImageOfDifferentType" priority="top"/>
+<item classname="plugins.tutorial.basics.TransparentlyProcessAnyImageDataType" priority="top"/>
+</band>
+<band name="ROI">
+<item classname="plugins.tutorial.basics.IntensityOverRoi" priority="med"/>
+<item classname="plugins.tutorial.basics.CreateAreaROI" priority="med"/>
+<item classname="plugins.tutorial.roi.ProcessingFromROI" priority="med"/>
+</band>
+<band name="Painters">
+<item classname="plugins.tutorial.basics.AnimatedMarkPainter" priority="med"/>
+<item classname="plugins.tutorial.painter.SimplePainter01" priority="med"/>
+<item classname="plugins.tutorial.painter.SimplePainter02" priority="med"/>
+</band>
+<band name="VTK">
+<item classname="plugins.tutorial.vtk.VtkPainterExamples" priority="med"/>
+</band>
+<band name="Misc">
+<item classname="plugins.tutorial.basics.HelloWorldPlugin" priority="med"/>
+<item classname="plugins.tutorial.basics.ListOfRegisteredPlugins" priority="med"/>
+<item classname="plugins.tutorial.event.MainListenerUse" priority="med"/>
+<item classname="plugins.tutorial.basics.GenerateABugTutorial" priority="med"/>
+<item classname="plugins.stef.demo.particle.Particles" priority="med"/>
+</band>
+<band name="Swimming Pool">
+<item classname="plugins.tutorial.basics.SwimmingPoolEmitterTutorial" priority="med"/>
+<item classname="plugins.tutorial.basics.SwimmingPoolListenerTutorial" priority="med"/>
+</band>
+<band name="GUI">
+<item classname="plugins.tutorial.gui.SequenceActionFrameExample" priority="med"/>
+<item classname="plugins.tutorial.gui.GuiBuildExample01" priority="med"/>
+<item classname="plugins.adufour.tutorial.EzPlugTutorial" priority="med"/>
+</band>
+<band name="Chart">
+<item classname="plugins.tutorial.basics.BarChartDemo1" priority="med"/>
+<item classname="plugins.tutorial.basics.DeviationRendererDemo2" priority="med"/>
+</band>
+</task>
+</root>

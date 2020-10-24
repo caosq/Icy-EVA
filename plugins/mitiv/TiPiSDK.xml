@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=383&pluginVersion=0.0.1.19]]></url><name>TiPiSDK</name><version>0.0.1.19</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=383&pluginVersion=0.0.1.19]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[The TiPi Library, a Java Toolkit for Inverse Problems and Imaging.]]></description><classname><![CDATA[plugins.mitiv.TiPiSDK]]></classname><author><![CDATA[mitiv - Ferreol Soulez]]></author><changelog><![CDATA[-
+Version 0.0.1.19
+Date 2017-09-19 14:12:40
+
+
+
+-
+Version 0.0.1.18
+Date 2017-05-23 12:50:29
+
+
+
+-
+Version 0.0.1.17
+Date 2017-05-10 13:57:56
+
+Only compatible with icy 1.9.1
+
+-
+Version 0.0.1.16
+Date 2016-10-09 18:33:49
+
+Fix the classname problem
+
+-
+Version 0.0.1.15
+Date 2016-10-09 12:12:39
+
+Regression from version 0.0.1.12
+
+-
+Version 0.0.1.14
+Date 2016-10-09 12:01:57
+
+Fix many bugs after extensive testing at MiFoBio 2016. 
+A major version coming soon.
+
+
+-
+Version 0.0.1.13b
+Date 2016-09-15 13:00:07
+
+Update to last version from git:devel
+
+-
+Version 0.0.1.12
+Date 2016-03-09 15:17:16
+
+Upgrading for plugins
+
+-
+Version 0.0.1.12b
+Date 2016-03-09 15:09:48
+
+Upgrading to meet plugins requirements
+
+-
+Version 0.0.1.11
+Date 2016-02-05 14:29:59
+
+Output images are now correct
+
+-
+Version 0.0.1.10b
+Date 2016-02-05 14:21:36
+
+Fixing a bug where output images where strange
+
+-
+Version 0.0.1.9
+Date 2015-12-17 12:16:18
+
+
+
+-
+Version 0.0.1.8b
+Date 2015-12-17 11:57:00
+
+
+
+-
+Version 0.0.1.7
+Date 2015-09-04 11:02:25
+
+Exiting beta
+
+-
+Version 0.0.1.6b
+Date 2015-07-03 15:55:55
+
+
+
+-
+Version 0.0.1.5
+Date 2015-07-03 12:58:23
+
+
+
+-
+Version 0.0.1.4
+Date 2015-07-02 15:35:27
+
+
+
+-
+Version 0.0.1.3
+Date 2015-07-02 14:57:37
+
+
+
+-
+Version 0.0.1.2b
+Date 2015-07-02 14:50:59
+
+
+
+-
+Version 0.0.1.1b
+Date 2015-07-02 14:49:12
+
+
+
+-
+Version 0.0.1.0b
+Date 2015-07-02 14:45:26
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/TiPiSDK]]></web><dependencies><dependency><classname>plugins.mitiv.JTransforms3</classname></dependency></dependencies></root>

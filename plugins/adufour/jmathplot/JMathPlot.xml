@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=402&pluginVersion=1.0.1.0]]></url><name>JMathPlot</name><version>1.0.1.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=402&pluginVersion=1.0.1.0]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[JMathPlot: interactive 2D and 3D plots. Library written by Yann Richet]]></description><classname><![CDATA[plugins.adufour.jmathplot.JMathPlot]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 1.0.1.0
+Date 2016-03-17 20:17:01
+
+Bumped version to the official (release) version
+
+-
+Version 0.0.1.0
+Date 2016-03-17 20:16:13
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/JMathPlot]]></web><dependencies><dependency><classname>plugins.adufour.jmathio.JMathIO</classname></dependency></dependencies></root>

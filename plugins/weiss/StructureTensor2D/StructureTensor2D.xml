@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=392&pluginVersion=0.0.2.3]]></url><name>StructureTensor2D</name><version>0.0.2.3</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=392&pluginVersion=0.0.2.3]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4009]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4010]]></image_url><description><![CDATA[This plugin allows visualizing the output of the structure tensor in 2D as a field of ellipses. This can be useful to analyze geometrical configurations of cells/nuclei in dense tissues for instance. Ellipses are displayed on a regular grid with step size fixed by the user. The user can set an ROI to specify where the ellipses should be displayed. 
+
+The plugin should be used with Java 7 or above since there are multi-threaded pieces of codes (JTransforms of Piotr Wendykier). 
+
+This plugin was developed mostly by Guillaume De Brito during an internship in 2015. It is maintained by Pierre Weiss.
+
+In case you use this plugin for a publication, please cite:
+Structure tensor based analysis of cells and nuclei organization in tissues.
+W. Zhang, J. Fehrenbach, A. Desmaison, V. Lobjois, B. Ducommun, P. Weiss*,
+B. Kovac, A. Le Guelvouit IEEE TMI (2015).]]></description><classname><![CDATA[plugins.weiss.StructureTensor2D.StructureTensor2D]]></classname><author><![CDATA[weiss - Pierre Weiss]]></author><changelog><![CDATA[-
+Version 0.0.2.3
+Date 2016-06-02 10:56:58
+
+-- Added source files to the JAR folder
+
+-
+Version 0.0.2.2
+Date 2016-04-18 09:16:17
+
+-- Fixed compatibility errors with Java 1.6
+
+-
+Version 0.0.2.1
+Date 2016-04-14 09:15:16
+
+-- Fixed version error with JRE 1.7
+
+-
+Version 0.0.2.0
+Date 2016-04-08 16:35:49
+
+Added the possibility to display the result on several ROIs at once, instead of just one
+
+-
+Version 0.0.1.12
+Date 2016-04-08 13:59:17
+
+Fixed package's names
+
+-
+Version 0.0.1.11
+Date 2016-04-08 10:42:57
+
+
+
+-
+Version 0.0.1.10b
+Date 2016-04-07 09:29:29
+
+
+
+-
+Version 0.0.1.9
+Date 2016-04-07 09:21:11
+
+Regression from version 0.0.1.5
+
+-
+Version 0.0.1.8
+Date 2016-04-06 16:43:52
+
+
+
+-
+Version 0.0.1.7
+Date 2016-04-06 16:20:30
+
+
+
+-
+Version 0.0.1.6
+Date 2016-04-06 16:19:23
+
+Regression from version 0.0.1.3
+
+-
+Version 0.0.1.5
+Date 2016-04-06 16:13:03
+
+
+
+-
+Version 0.0.1.4b
+Date 2016-04-05 16:54:57
+
+Fixed the bugs on odd dimensions images.
+
+-
+Version 0.0.1.3
+Date 2015-08-26 18:03:39
+
+Added a reference to the corresponding paper. Stopped tagging version as "beta". 
+
+-
+Version 0.0.1.2b
+Date 2015-08-26 17:53:10
+
+Modified the name StructureTensor to StructureTensor2D
+
+-
+Version 0.0.1.1b
+Date 2015-08-20 11:49:13
+
+Corrected a few bugs.
+
+-
+Version 0.0.1.0b
+Date 2015-08-19 18:18:25
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/StructureTensor2D]]></web><dependencies></dependencies></root>

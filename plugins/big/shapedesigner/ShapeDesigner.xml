@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=288&pluginVersion=1.1.0.0]]></url><name>Shape Designer</name><version>1.1.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=288&pluginVersion=1.1.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2634]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2635]]></image_url><description><![CDATA[This plug-in implements a user-friendly way to design shape-priors for the Active Cells plug-in.]]></description><classname><![CDATA[plugins.big.shapedesigner.ShapeDesigner]]></classname><author><![CDATA[big - Biomedical Imaging Group]]></author><changelog><![CDATA[-
+Version 1.1.0.0
+Date 2014-05-03 01:38:11
+
+Adjusted to new VTK
+
+-
+Version 1.0.0.0
+Date 2013-12-05 14:01:19
+
+Minor updates.
+
+-
+Version 0.0.1.0
+Date 2013-11-13 17:26:01
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Shape_Designer]]></web><dependencies><dependency><classname>plugins.big.bigsnakeutils.BIGSnakeUtils</classname></dependency></dependencies></root>

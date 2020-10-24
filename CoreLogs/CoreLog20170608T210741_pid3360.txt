@@ -1,0 +1,165 @@
+2017-06-08T21:07:41.286870 tid3416 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170608T210741_pid3360.txt
+2017-06-08T21:07:41.286870 tid3416 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-08T21:07:41.296871 tid3416 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-08T21:07:41.300871 tid3416 [IFO,App] User: Administrator
+2017-06-08T21:07:41.300871 tid3416 [IFO,App] Host: MS-20170220QNJB
+2017-06-08T21:07:41.300871 tid3416 [IFO,App] MM Studio version: 1.4.22
+2017-06-08T21:07:41.300871 tid3416 [IFO,App] MMCore version 8.1.0
+2017-06-08T21:07:41.300871 tid3416 [IFO,App] Device API version 65, Module API version 10
+2017-06-08T21:07:41.300871 tid3416 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-08T21:07:41.301871 tid3416 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-08T21:07:41.305871 tid3416 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-08T21:07:41.305871 tid3416 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-08T21:07:42.060914 tid3416 [IFO,App] Finished waiting for plugins to load
+2017-06-08T21:07:42.073915 tid3416 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-08T21:07:42.073915 tid3416 [dbg,Core] Will unload all devices
+2017-06-08T21:07:42.073915 tid3416 [IFO,Core] Did unload all devices
+2017-06-08T21:07:42.073915 tid3416 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-08T21:07:42.075915 tid3416 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-08T21:07:42.075915 tid3416 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-08T21:07:42.079915 tid3416 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-08T21:07:42.079915 tid3416 [dbg,Core] Will load device Pico from Picoscope
+2017-06-08T21:07:42.079915 tid3416 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-08T21:07:42.079915 tid3416 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-08T21:07:42.079915 tid3416 [IFO,Core] Will initialize 2 devices
+2017-06-08T21:07:42.079915 tid3416 [IFO,Core] Will initialize device PicoHub
+2017-06-08T21:07:42.079915 tid3416 [IFO,Core] Did initialize device PicoHub
+2017-06-08T21:07:42.079915 tid3416 [IFO,Core] Will initialize device Pico
+2017-06-08T21:07:42.079915 tid3416 [dbg,dev:Pico] Setting Allowed Binning settings
+2017-06-08T21:07:44.019026 tid3416 [IFO,Core] Did initialize device Pico
+2017-06-08T21:07:44.019026 tid3416 [IFO,Core] Default camera set to Pico
+2017-06-08T21:07:44.019026 tid3416 [IFO,Core] Finished initializing 2 devices
+2017-06-08T21:07:44.019026 tid3416 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Will set Core property: Camera = Pico
+2017-06-08T21:07:44.020026 tid3416 [IFO,Core] Default camera set to Pico
+2017-06-08T21:07:44.020026 tid3416 [dbg,App] Notification for Device: Core Property: Camera changed to value: Pico
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Did set Core property: Camera = Pico
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Autoshutter turned on
+2017-06-08T21:07:44.020026 tid3416 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Waiting for device PicoHub...
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Finished waiting for device PicoHub
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Waiting for device Pico...
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Finished waiting for device Pico
+2017-06-08T21:07:44.020026 tid3416 [dbg,Core] Will update system state cache
+2017-06-08T21:07:44.021026 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:07:44.085030 tid3416 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T21:07:44.088030 tid3416 [dbg,Core] Will update system state cache
+2017-06-08T21:07:44.089030 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:07:44.089030 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:07:44.096031 tid3416 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-08T21:07:45.249097 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:07:45.249097 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:07:45.513112 tid2732 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-08T21:07:45.531113 tid2732 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-08T21:07:45.531113 tid2732 [IFO,LogManager] Disabling logging to stderr
+2017-06-08T21:07:45.990139 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:07:45.990139 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:07:46.034142 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:07:46.034142 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:07:51.397448 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:07:52.613518 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:07:54.424622 tid4476 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:08:12.124634 tid3416 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T21:08:15.649836 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:08:16.818902 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:08:19.909079 tid3416 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T21:08:22.538230 tid3416 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T21:08:24.076317 tid3416 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T21:08:26.641464 tid3416 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T21:08:30.187667 tid3416 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T21:08:32.470798 tid6004 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:08:32.470798 tid6004 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:08:34.413909 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:08:36.973055 tid3416 [IFO,App] Setting value true at row 1
+2017-06-08T21:08:36.974055 tid3416 [IFO,App] [UI] JTable clicked in GroupEditor.
+2017-06-08T21:08:39.252186 tid3416 [IFO,App] [UI] JTextField clicked in GroupEditor.
+2017-06-08T21:08:42.634379 tid3416 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T21:08:42.636379 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:08:42.663381 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:08:42.664381 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:08:42.664381 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:08:42.743385 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:08:42.744385 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:08:45.039517 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:08:46.164581 tid3416 [IFO,App] [UI] JTable clicked in GroupEditor.
+2017-06-08T21:08:46.796617 tid3416 [IFO,App] [UI] JTable clicked in GroupEditor.
+2017-06-08T21:08:48.871736 tid3416 [IFO,App] Setting value true at row 2
+2017-06-08T21:08:49.620779 tid3416 [IFO,App] [UI] JTextField clicked in GroupEditor.
+2017-06-08T21:09:26.657897 tid3416 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T21:09:26.658897 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:09:26.659897 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:09:26.660897 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:09:26.660897 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:09:26.768903 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:09:26.768903 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:09:28.747016 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:09:32.644239 tid3416 [IFO,App] Setting value true at row 10
+2017-06-08T21:09:32.645239 tid3416 [IFO,App] [UI] JTable clicked in GroupEditor.
+2017-06-08T21:09:33.665298 tid3416 [IFO,App] [UI] JTextField clicked in GroupEditor.
+2017-06-08T21:09:49.885225 tid3416 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T21:09:49.886226 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:09:49.887226 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:09:49.888226 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:09:49.888226 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:09:49.984231 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:09:49.984231 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:09:53.403427 tid3416 [IFO,App] [UI] IcyToggleButton "Live" toggled on in MainFrame.
+2017-06-08T21:09:55.068522 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:09:56.078580 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:10:01.111868 tid5956 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:10:01.111868 tid5956 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:10:05.125097 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:10:05.126097 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:10:05.126097 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:10:05.127097 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:10:06.774191 tid3416 [IFO,App] [UI] IcyToggleButton "Live" toggled on in MainFrame.
+2017-06-08T21:10:07.836252 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:10:08.763305 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:10:15.187673 tid5404 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:10:15.187673 tid5404 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:10:16.771763 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T21:10:16.772763 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:10:16.772763 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:10:16.772763 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:10:16.773763 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:10:19.227904 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:10:20.355968 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:12:07.445093 tid3416 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T21:12:10.819286 tid3416 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T21:12:12.854403 tid4264 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:12:12.854403 tid4264 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:12:27.995269 tid3416 [IFO,App] [UI] JRibbonTaskToggleButton clicked in MainFrame.
+2017-06-08T21:12:29.400349 tid3416 [IFO,App] [UI] IcyCommandButton "plugins.oeway.viewers.Chart1DCanvas" clicked in MainFrame.
+2017-06-08T21:12:30.699424 tid3416 [IFO,App] [UI] IcyCommandButton "plugins.oeway.viewers.Chart1DCanvas" clicked in MainFrame.
+2017-06-08T21:12:40.522985 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:12:42.186081 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:12:44.384206 tid3416 [IFO,App] [UI] IcyToggleButton nulltoggled off in MainFrame.
+2017-06-08T21:12:44.903236 tid3416 [IFO,App] [UI] IcyToggleButton nulltoggled on in MainFrame.
+2017-06-08T21:12:46.000299 tid3416 [IFO,App] [UI] IcyToggleButton nulltoggled off in MainFrame.
+2017-06-08T21:12:50.471554 tid3416 [IFO,App] [UI] JButton "column" clicked in MainFrame.
+2017-06-08T21:12:53.588733 tid3416 [IFO,App] [UI] JButton "row" clicked in MainFrame.
+2017-06-08T21:12:58.957040 tid3416 [IFO,App] [UI] IcySlider set to "0" in MainFrame.
+2017-06-08T21:13:01.332176 tid3416 [IFO,App] [UI] PanningChartPanel clicked in MainFrame.
+2017-06-08T21:13:10.518701 tid3416 [IFO,App] [UI] CanvasView clicked in MainFrame.
+2017-06-08T21:13:20.639280 tid6104 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:13:20.639280 tid6104 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:13:22.034360 tid3416 [IFO,App] [UI] IcyInternalFrame clicked in MainFrame.
+2017-06-08T21:13:25.148538 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:13:27.274659 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:13:29.109764 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:13:30.305833 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:14:14.315350 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:14:14.315350 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:14:14.315350 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:14:14.316350 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:14:17.519533 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:14:19.138626 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:14:20.458701 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:14:21.465759 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:15:28.154573 tid3416 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T21:15:37.036081 tid3416 [IFO,Core] Did unload all devices
+2017-06-08T21:15:37.036081 tid3416 [IFO,Core] System reset
+2017-06-08T21:15:37.042082 tid3416 [IFO,Core] Core session ended

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=374&pluginVersion=0.3.10.0]]></url><name>Webcam Capture Library</name><version>0.3.10.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=374&pluginVersion=0.3.10.0]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[Webcam Capture library for Icy.
+This library allow easy access to webcam from Icy.
+You can see an example with the Webcam Capture example plugin.
+http://webcam-capture.sarxos.pl/]]></description><classname><![CDATA[plugins.stef.library.WebcamCaptureLibraryPlugin]]></classname><author><![CDATA[stef - Stephane Dallongeville]]></author><changelog><![CDATA[-
+Version 0.3.10.0
+Date 2015-05-07 18:38:59
+
+
+
+-
+Version 0.0.1.0
+Date 2015-05-07 18:30:45
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Webcam_Capture_Library]]></web><dependencies><dependency><classname>plugins.stef.library.BridJLibraryPlugin</classname></dependency></dependencies></root>

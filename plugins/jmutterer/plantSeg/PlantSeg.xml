@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=322&pluginVersion=0.0.1.2]]></url><name>Plant Seg</name><version>0.0.1.2</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=322&pluginVersion=0.0.1.2]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3002]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3003]]></image_url><description><![CDATA[Helps with measuring hue values from arabidopsis plantlets on dishes. This provides a neutral tool for chlorosis scoring.
+Co authors : Gaëtan Pochon, Dominique Gagliardi, IBMP-CNRS.
+]]></description><classname><![CDATA[plugins.jmutterer.plantSeg.PlantSeg]]></classname><author><![CDATA[jmutterer - Jerome Mutterer]]></author><changelog><![CDATA[-
+Version 0.0.1.2
+Date 2014-06-11 10:52:34
+
+Diplays the hue histograms for the 4 rois in the plugin's panel.
+
+
+-
+Version 0.0.1.1
+Date 2014-05-22 12:10:37
+
+input image required
+
+-
+Version 0.0.1.0
+Date 2014-05-22 12:07:07
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Plant_Seg]]></web><dependencies></dependencies></root>

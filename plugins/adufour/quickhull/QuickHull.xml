@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=309&pluginVersion=1.0.0.0]]></url><name>QuickHull</name><version>1.0.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=309&pluginVersion=1.0.0.0]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[QuickHull library for Icy. Computes convex envelopes of random point sets in 2D or 3D.]]></description><classname><![CDATA[plugins.adufour.quickhull.QuickHull]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 1.0.0.0
+Date 2015-12-10 09:03:07
+
+Adjusted error messages
+
+-
+Version 0.0.1.0
+Date 2014-03-04 17:38:57
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/QuickHull]]></web><dependencies></dependencies></root>

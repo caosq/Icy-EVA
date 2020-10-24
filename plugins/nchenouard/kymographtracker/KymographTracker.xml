@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=276&pluginVersion=1.0.0.6]]></url><name>KymographTracker</name><version>1.0.0.6</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=276&pluginVersion=1.0.0.6]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2451]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2452]]></image_url><description><![CDATA[This plugin allows the extraction of the kymograph representation of pixel intensity evolution through time and along a defined spatial path. Different utilities are embedded to define the extraction curve.
+
+Multiple paths can be used for the same image sequence.
+
+Once the kymograph representation is extracted, tracks can be traced as 2D curves in the kymograph images. Those tracks can be save as a sequence of 1D positions along the extraction path through time, or exported to the TrackManager pluging for 2D+T representation and analysis.
+
+Results export and import functionalities are provided.
+
+NB: only 2D+t image sequences can be proecessed and only the first channel is used for the extraction of the kymograph images.
+
+For a reference, please cite:
+Chenouard, N., Buisson, J.,  Bloch, I.,  Bastin, P. and Olivo-Marin, J.-C.
+"Curvelet analysis of kymograph for tracking bi-directional particles in fluorescence microscopy images", 17th IEEE International Conference on Image Processing (ICIP), 2010 ]]></description><classname><![CDATA[plugins.nchenouard.kymographtracker.KymographTracker]]></classname><author><![CDATA[nchenouard - Nicolas Chenouard]]></author><changelog><![CDATA[-
+Version 1.0.0.6
+Date 2014-07-22 21:42:15
+
+Gives access to riesz wavelets source code.
+
+-
+Version 1.0.0.5
+Date 2014-02-28 22:01:58
+
+Bug fix for tracing multiple tracks.
+
+-
+Version 1.0.0.4
+Date 2014-02-25 06:38:31
+
+Added missing libraries.
+
+-
+Version 1.0.0.3
+Date 2014-02-25 06:35:49
+
+Added cubic spline for path smoothing.
+
+Sampled values are no longer taken as an average in a disk around the sampling point, but along the orthogonal to the path at the sampling point.
+
+-
+Version 1.0.0.2
+Date 2013-11-06 22:03:19
+
+Missing libraries included.
+
+-
+Version 1.0.0.1
+Date 2013-11-06 21:59:08
+
+Bugfix due to kernel update.
+
+-
+Version 1.0.0.0
+Date 2013-09-16 21:47:55
+
+From beta to final.
+
+-
+Version 0.0.1.1
+Date 2013-09-16 21:31:09
+
+Modified path tracers for easier user interactions.
+
+-
+Version 0.0.1.0b
+Date 2013-09-16 17:36:06
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/KymographTracker]]></web><dependencies><dependency><classname>plugins.fab.trackmanager.TrackManager</classname></dependency><dependency><classname>plugins.nchenouard.spot.DetectionResult</classname></dependency><dependency><classname>plugins.nchenouard.isotropicwavelets.IsotropicWavelets</classname></dependency></dependencies></root>

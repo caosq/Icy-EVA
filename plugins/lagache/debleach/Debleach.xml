@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=222&pluginVersion=0.0.1.1]]></url><name>Debleach</name><version>0.0.1.1</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=222&pluginVersion=0.0.1.1]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1727]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2173]]></image_url><description><![CDATA[This plugins allows debleaching of time sequences of fluorescence images. ]]></description><classname><![CDATA[plugins.lagache.debleach.Debleach]]></classname><author><![CDATA[lagache - Thibault Lagache]]></author><changelog><![CDATA[-
+Version 0.0.1.1
+Date 2012-11-29 17:00:25
+
+
+
+-
+Version 0.0.1.0
+Date 2012-11-29 15:24:50
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Debleach]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency></dependencies></root>

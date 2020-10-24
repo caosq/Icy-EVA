@@ -1,0 +1,94 @@
+2017-06-08T22:30:58.538697 tid2828 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170608T223058_pid4216.txt
+2017-06-08T22:30:58.538697 tid2828 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-08T22:30:58.549697 tid2828 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] User: Administrator
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] Host: MS-20170220QNJB
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] MM Studio version: 1.4.22
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] MMCore version 8.1.0
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] Device API version 65, Module API version 10
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-08T22:30:58.550697 tid2828 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-08T22:30:58.550697 tid2828 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-08T22:30:58.550697 tid2828 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-08T22:30:58.637702 tid2828 [IFO,App] Finished waiting for plugins to load
+2017-06-08T22:30:58.646703 tid2828 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-08T22:30:58.646703 tid2828 [dbg,Core] Will unload all devices
+2017-06-08T22:30:58.646703 tid2828 [IFO,Core] Did unload all devices
+2017-06-08T22:30:58.646703 tid2828 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-08T22:30:58.647703 tid2828 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-08T22:30:58.647703 tid2828 [dbg,Core] Will load device DHub from DemoCamera
+2017-06-08T22:30:58.647703 tid2828 [IFO,Core] Did load device DHub from DemoCamera; label = DHub
+2017-06-08T22:30:58.647703 tid2828 [dbg,Core] Will load device DCam from DemoCamera
+2017-06-08T22:30:58.647703 tid2828 [IFO,Core] Did load device DCam from DemoCamera; label = DCam
+2017-06-08T22:30:58.647703 tid2828 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-08T22:30:58.647703 tid2828 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-08T22:30:58.647703 tid2828 [dbg,Core] Will load device Pico from Picoscope
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-08T22:30:58.648703 tid2828 [dbg,Core:dev:DCam] Will set property "MaximumExposureMs" to "10000.0000"
+2017-06-08T22:30:58.648703 tid2828 [dbg,Core:dev:DCam] Did set property "MaximumExposureMs" to "10000.0000"
+2017-06-08T22:30:58.648703 tid2828 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Will initialize 4 devices
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Will initialize device DHub
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Did initialize device DHub
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Will initialize device DCam
+2017-06-08T22:30:58.648703 tid2828 [dbg,dev:DCam] Setting Allowed Binning settings
+2017-06-08T22:30:58.648703 tid2828 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Did initialize device DCam
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Default camera set to DCam
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Will initialize device PicoHub
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Did initialize device PicoHub
+2017-06-08T22:30:58.648703 tid2828 [IFO,Core] Will initialize device Pico
+2017-06-08T22:30:58.648703 tid2828 [dbg,dev:Pico] Setting Allowed Binning settings
+2017-06-08T22:30:59.981779 tid2828 [IFO,Core] Did initialize device Pico
+2017-06-08T22:30:59.981779 tid2828 [IFO,Core] Default camera set to Pico
+2017-06-08T22:30:59.981779 tid2828 [IFO,Core] Finished initializing 4 devices
+2017-06-08T22:30:59.981779 tid2828 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Will set Core property: Camera = DCam
+2017-06-08T22:30:59.981779 tid2828 [IFO,Core] Default camera set to DCam
+2017-06-08T22:30:59.981779 tid2828 [dbg,App] Notification for Device: Core Property: Camera changed to value: DCam
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Did set Core property: Camera = DCam
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Autoshutter turned on
+2017-06-08T22:30:59.981779 tid2828 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Waiting for device DHub...
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Finished waiting for device DHub
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Waiting for device DCam...
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Finished waiting for device DCam
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Waiting for device PicoHub...
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Finished waiting for device PicoHub
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Waiting for device Pico...
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Finished waiting for device Pico
+2017-06-08T22:30:59.981779 tid2828 [dbg,Core] Will update system state cache
+2017-06-08T22:30:59.981779 tid2828 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T22:30:59.982779 tid2828 [IFO,Core] Did update system state cache
+2017-06-08T22:30:59.986779 tid2828 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T22:30:59.987779 tid2828 [dbg,Core] Will update system state cache
+2017-06-08T22:30:59.987779 tid2828 [dbg,dev:DCam] Reading property ScanMode
+2017-06-08T22:30:59.988779 tid2828 [IFO,Core] Did update system state cache
+2017-06-08T22:30:59.988779 tid2828 [IFO,App] Finished updating GUI
+2017-06-08T22:30:59.988779 tid2828 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-08T22:31:00.068784 tid2828 [IFO,App] Rebuilding config group table
+2017-06-08T22:31:00.068784 tid2828 [IFO,App] Finished rebuilding config group table
+2017-06-08T22:31:00.094786 tid5804 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-08T22:31:00.109786 tid5804 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-08T22:31:00.109786 tid5804 [IFO,LogManager] Disabling logging to stderr
+2017-06-08T22:31:00.322799 tid2828 [IFO,App] Rebuilding config group table
+2017-06-08T22:31:00.322799 tid2828 [IFO,App] Finished rebuilding config group table
+2017-06-08T22:31:00.341800 tid2828 [IFO,App] Rebuilding config group table
+2017-06-08T22:31:00.341800 tid2828 [IFO,App] Finished rebuilding config group table
+2017-06-08T22:31:13.329543 tid5972 [IFO,dev:DCam] SeqAcquisition interrupted by the user
+2017-06-08T22:31:13.329543 tid5972 [IFO,dev:DCam] Sequence thread exiting
+2017-06-08T22:31:15.713679 tid2828 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T22:31:16.960750 tid2828 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T22:31:18.171819 tid2828 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T22:31:24.442178 tid2828 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T22:31:25.577243 tid2828 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T22:31:30.057499 tid2828 [IFO,App] [UI] ConfigGroupPad clicked in MainFrame.
+2017-06-08T22:31:37.680935 tid2828 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T22:31:39.217023 tid2828 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T22:31:41.729167 tid2828 [IFO,App] [UI] ConfigGroupPad clicked in MainFrame.
+2017-06-08T22:31:47.633505 tid2828 [IFO,Core] Did unload all devices
+2017-06-08T22:31:47.634505 tid2828 [IFO,Core] System reset
+2017-06-08T22:31:47.639505 tid2828 [IFO,Core] Core session ended

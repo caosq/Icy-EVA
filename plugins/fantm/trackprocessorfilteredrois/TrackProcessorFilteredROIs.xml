@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=405&pluginVersion=1.0.0.0]]></url><name>Track Processor Filtered ROIs</name><version>1.0.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=405&pluginVersion=1.0.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4015]]></icon_url><image_url></image_url><description><![CDATA[This plugin was written to address a request from our lab. We had a t-stack of mitochondria, some of which were moving across the image. 
+To highlight the moving mitochondria for a presentation, the biologist wanted circles drawn around them. 
+This plugin works well when added in TrackManager after the Motion Profiler plugin. ]]></description><classname><![CDATA[plugins.fantm.trackprocessorfilteredrois.TrackProcessorFilteredROIs]]></classname><author><![CDATA[fantm - M. Fantham]]></author><changelog><![CDATA[-
+Version 1.0.0.0
+Date 2016-04-12 21:03:18
+
+Added option to change size and change color of the ROIs.
+
+-
+Version 0.0.1.3
+Date 2016-04-12 10:27:48
+
+Added compatibility for Java versions down to 1.6. 
+
+-
+Version 0.0.1.2
+Date 2016-04-09 12:23:41
+
+The plugin works, so I'm bringing it out of beta. 
+Still have a few features I would like to add in the future..
+
+-
+Version 0.0.1.1b
+Date 2016-04-09 12:09:49
+
+Fixed build paths. 
+
+-
+Version 0.0.1.0
+Date 2016-04-09 11:54:54
+
+Initial release
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Track_Processor_Filtered_ROIs]]></web><dependencies><dependency><classname>plugins.fab.trackmanager.TrackManager</classname></dependency></dependencies></root>

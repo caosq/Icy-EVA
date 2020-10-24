@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=191&pluginVersion=3.2.0.1]]></url><name>Motion Profiler</name><version>3.2.0.1</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=191&pluginVersion=3.2.0.1]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3059]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3060]]></image_url><description><![CDATA[Track manager plug-in measuring motion statistics in 2D/3D, including min/max/avg/total displacement (absolute & relative to origin), and displacement profiles along all spatial axes.]]></description><classname><![CDATA[plugins.adufour.trackprocessors.speed.SpeedProfiler]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 4.0.0.0
+Date 2018-04-13 11:56:27
+
+Major rewrite (separated in several files) :
+- separated filtering / statistics track processors
+- fixed some issues with filtering using real unit
+- fixed some GUI issues
+- others minors fixes and tweaks
+- now compatible with protocols (filter tracks and motion profiler) !
+
+-
+Version 3.2.0.1
+Date 2017-08-11 18:02:29
+
+Revert to Java 1.6
+
+-
+Version 3.2.0.0
+Date 2017-06-29 10:56:57
+
+* Code cleaning (requires Java 1.8)
+* New criteria:
+- start time
+- end time
+- current time (filter only)
+
+-
+Version 3.1.4.0
+Date 2016-10-19 12:13:38
+
+Track index is now zero-based (matches the track manager panel)
+
+-
+Version 3.1.3.0
+Date 2016-03-17 20:22:06
+
+Moved internal plotting code to standalone libraries (see the JMathIO and JMathPlot plugins)
+
+-
+Version 3.1.2.0
+Date 2016-02-04 20:00:44
+
+Minor adjustment on the plot panel to have an equal X to Y scale ratio (warning: not optimal)
+
+-
+Version 3.1.1.0
+Date 2015-12-11 11:34:56
+
+Fixed an issue with negative coordinates
+
+-
+Version 3.1.0.0
+Date 2015-05-21 18:47:03
+
+* New criterion: extent (maximum distance between any 2 detections of a track)
+* Renamed "tortuosity" to "linearity"
+* New: ability to filter tracks by linearity and extent
+
+-
+Version 3.0.5.0
+Date 2014-11-27 11:09:45
+
+The 3D motion graph had disappeared from the previous update...
+
+-
+Version 3.0.4.0
+Date 2014-11-18 16:55:17
+
+The export folder is now automatically saved in the plugin preferences
+
+-
+Version 3.0.3.0
+Date 2014-08-21 17:02:11
+
+* Renamed "Relative" to "net" displacement
+* New "tortuosity" measure (ratio of net to total displacement"
+
+-
+Version 3.0.2.0
+Date 2014-07-21 18:43:42
+
+Improved track filtering performance
+
+-
+Version 3.0.1.0
+Date 2014-07-21 15:23:50
+
+- Moved the "export" button on the upper interface panel
+- Fixed the "Filter tracks" option which wasn't working
+- The statistics table now includes the name of each group and the track's ID within the group 
+
+-
+Version 3.0.0.1
+Date 2014-06-20 16:41:22
+
+Re-uploaded JAR file (rolled back class path to initial one)
+
+-
+Version 3.0.0.0
+Date 2014-06-20 16:24:45
+
+New feature: tracks can now be filtered based on the available motion statistics
+
+-
+Version 2.0.0.4
+Date 2014-06-19 17:00:55
+
+Fixing the JAR file (again)
+
+-
+Version 2.0.0.3
+Date 2014-06-19 16:54:58
+
+Regression from version 2.0.0.1
+
+-
+Version 2.0.0.2
+Date 2014-06-19 16:53:50
+
+Re-uploading the correct JAR file
+
+-
+Version 2.0.0.1
+Date 2014-06-19 16:51:31
+
+Regression from version 1.0.1.0
+
+-
+Version 2.0.0.0
+Date 2014-06-19 16:49:56
+
+Rewrote plug-in from scratch. New interface, faster calculations, new display for plots & graphs, and export functionalities
+
+-
+Version 1.0.1.0
+Date 2013-07-02 16:09:58
+
+Fixed display issue in the track manager
+
+-
+Version 1.0.0.0
+Date 2012-08-08 16:13:07
+
+- Fixed error when setting the display sequence to null
+- Graphical layout adjusted
+
+-
+Version 0.0.1.0
+Date 2012-08-08 15:44:29
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Motion_Profiler]]></web><dependencies><dependency><classname>plugins.fab.trackmanager.TrackManager</classname></dependency><dependency><classname>plugins.nchenouard.spot.DetectionResult</classname></dependency><dependency><classname>plugins.adufour.jmathplot.JMathPlot</classname></dependency></dependencies></root>

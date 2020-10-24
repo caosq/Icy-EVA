@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=380&pluginVersion=1.0.8.0]]></url><name>Rigid registration</name><version>1.0.8.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=380&pluginVersion=1.0.8.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3727]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3728]]></image_url><description><![CDATA[A simple tool for rigid registration of chromatic or temporal shifts, based on the Fast Fourier and Log-Polar transforms]]></description><classname><![CDATA[plugins.agaspard.rigidregistration.RigidRegistration]]></classname><author><![CDATA[agaspard - Pasteur]]></author><changelog><![CDATA[-
+Version 1.0.8.0
+Date 2017-02-24 14:35:22
+
+Fixed an issue with the advanced mode where negative rotations were not corrected
+
+-
+Version 1.0.7.0
+Date 2017-02-23 17:39:36
+
+Fixed an issue with the advanced chromatic registration causing the wrong sequence to be registered
+
+-
+Version 1.0.6.0
+Date 2016-12-11 16:02:17
+
+Added a stop button to halt a running process
+
+-
+Version 1.0.5.0
+Date 2016-11-07 17:43:52
+
+Fixed an issue causing applyRotation2D(...) and applyTranslation2D(...) not to work on single image sequences 
+
+-
+Version 1.0.4.0
+Date 2016-01-04 17:32:28
+
+Some fixes to the temporal registration not behaving properly
+
+-
+Version 1.0.3.0
+Date 2015-11-09 14:43:30
+
+Fixed a minor issue with the Z selector in the graphical interface
+
+-
+Version 1.0.2.0
+Date 2015-07-10 14:34:51
+
+Fixed the class path (again)
+
+-
+Version 1.0.1.0
+Date 2015-07-10 14:32:50
+
+Fixed the class path
+
+-
+Version 1.0.0.0
+Date 2015-07-06 03:05:44
+
+Apply a 3-step registration (translation + rotation + translation) for optimal results
+
+-
+Version 0.0.2.0
+Date 2015-07-03 11:32:42
+
+Fixed an issue with the advanced mode
+
+-
+Version 0.0.1.0
+Date 2015-06-26 16:43:43
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Rigid_registration]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency></dependencies></root>

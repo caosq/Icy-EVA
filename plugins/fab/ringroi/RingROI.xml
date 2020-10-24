@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=206&pluginVersion=1.0.0.0]]></url><name>Ring ROI</name><version>1.0.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=206&pluginVersion=1.0.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1630]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1631]]></image_url><description><![CDATA[Creates ROI rings from existing ROI
+Each ROI are substracted by the first ROI of smaller surface.]]></description><classname><![CDATA[plugins.fab.ringroi.RingROI]]></classname><author><![CDATA[fab - Fabrice de Chaumont]]></author><changelog><![CDATA[-
+Version 1.0.0.0
+Date 2012-10-22 10:44:24
+
+Faster
+
+-
+Version 0.0.1.0
+Date 2012-09-27 16:22:08
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Ring_ROI]]></web><dependencies></dependencies></root>

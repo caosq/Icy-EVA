@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=393&pluginVersion=0.0.2.6]]></url><name>StructureTensor3D</name><version>0.0.2.6</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=393&pluginVersion=0.0.2.6]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4006]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=4005]]></image_url><description><![CDATA[This plugin allows visualizing the output of the structure tensor in 3D. A field of ellipsoids are displayed on a regular grid. This function can be used to analyze the geometrical configurations of cells/nuclei in 3D images. Additionnally, the user can specify an ROI to display ellipsoids only in a given region of space.
+
+The plugin should be used with Java 7 or above since there are multi-threaded pieces of codes (JTransforms of Piotr Wendykier). 
+
+This plugin was developed mostly by Guillaume De Brito during an internship in 2015. It is maintained by Pierre Weiss.
+
+In case you use this plugin for a publication, please cite:
+Structure tensor based analysis of cells and nuclei organization in tissues.
+W. Zhang, J. Fehrenbach, A. Desmaison, V. Lobjois, B. Ducommun, P. Weiss*, IEEE TMI (2015).]]></description><classname><![CDATA[plugins.weiss.StructureTensor3D.StructureTensor3D]]></classname><author><![CDATA[weiss - Pierre Weiss]]></author><changelog><![CDATA[-
+Version 0.0.2.6
+Date 2016-08-24 09:10:21
+
+-- Fixed a bug that made the plugin crash when used with no opened sequence
+
+-
+Version 0.0.2.5
+Date 2016-06-02 10:57:13
+
+-- Added source files to the JAR folder
+
+-
+Version 0.0.2.4
+Date 2016-05-20 15:30:10
+
+-- Minor fixes
+
+-
+Version 0.0.2.3
+Date 2016-04-25 10:40:51
+
+-- Fixed error occurring when processing image with odd dimensions
+
+-
+Version 0.0.2.2
+Date 2016-04-18 09:16:34
+
+-- Fixed compatibility errors with Java 1.6
+
+-
+Version 0.0.2.1
+Date 2016-04-14 09:15:31
+
+-- Fixed version error with JRE 1.7
+
+-
+Version 0.0.2.0
+Date 2016-04-08 16:57:57
+
+- Fixed the bugs regarding the display of ellipsoids.
+
+- Added the possibility to randomize the position of the center of the ellipsoids within the cells determined by delta x delta x delta
+
+-
+Version 0.0.1.2
+Date 2015-08-26 18:07:35
+
+Stopped tagging version as beta. First official release!
+
+-
+Version 0.0.1.1
+Date 2015-08-20 11:49:44
+
+Corrected a few bugs.
+
+-
+Version 0.0.1.0b
+Date 2015-08-19 18:19:29
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/StructureTensor3D]]></web><dependencies></dependencies></root>

@@ -1,0 +1,42 @@
+<root description="Process images" name="Processing">
+<task name="Processing">
+<band name="Filtering">
+<item classname="plugins.adufour.filtering.FilterToolbox" priority="top"/>
+<item classname="plugins.spop.advancefilters.WeickertFilter" priority="med"/>
+<item classname="plugins.spop.medianfilter.MedianFilter" priority="med"/>
+<item classname="plugins.spop.advancefilters.PeronaMalikFilter" priority="med"/>
+<item classname="plugins.spop.advancefilters.ShockFilter" priority="med"/>
+<item classname="plugins.mitiv.deconv.MitivDeconvolution" priority="med"/>
+<item classname="plugins.mitiv.deconv.MitivBlindDeconvolution" priority="med"/>
+</band>
+<band name="Sequence operations">
+<item classname="plugins.ylemontag.mathoperationspp.MathOperationPPPlugin" priority="top"/>
+<item classname="plugins.vannary.morphomaths.MorphoMaths" priority="top"/>
+<item classname="plugins.fab.projection.Projection" priority="med"/>
+<item classname="plugins.spop.rotation3D.StackRotation" priority="med"/>
+<item classname="plugins.adufour.viewers.Montage2D" priority="med"/>
+<item classname="plugins.fab.invert.Invert" priority="low"/>
+<item classname="plugins.ylemontag.complex.ComplexFeaturePlugin" priority="low"/>
+<item classname="plugins.tinevez.imglib2icy.ImgLib2Test" priority="low"/>
+</band>
+<band name="ROI operations">
+<item classname="plugins.adufour.morphology.FillHolesInROI" priority="top"/>
+<item classname="plugins.adufour.roi.ROIMeasures" priority="top"/>
+<item classname="plugins.adufour.roi.RescaleROI" priority="top"/>
+<item classname="plugins.adufour.roi.Convexify" priority="med"/>
+<item classname="plugins.nchenouard.roiintensityevolution.ROIIntensityEvolution" priority="med"/>
+<item classname="plugins.nherve.maskeditor.MaskEditor" priority="med"/>
+</band>
+<band name="Histogram">
+<item classname="plugins.tlecomte.histogram.HistogramEqualization" priority="top"/>
+<item classname="plugins.spop.clahe.Clahe" priority="med"/>
+<item classname="plugins.lagache.debleach.Debleach" priority="med"/>
+<item classname="plugins.mitiv.deconv.MitivNormalization" priority="med"/>
+</band>
+<band name="Transform">
+<item classname="plugins.praveen.fft.FFT" priority="top"/>
+<item classname="plugins.adufour.distancetransforms.ROIToDistanceMap" priority="top"/>
+<item classname="plugins.agaspard.rigidregistration.RigidRegistration" priority="top"/>
+</band>
+</task>
+</root>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=251&pluginVersion=1.2.0.0]]></url><name>Feature Detector</name><version>1.2.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=251&pluginVersion=1.2.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2143]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2144]]></image_url><description><![CDATA[Icy Feature Detector plug-in implements a series of optimized contour and ridge detectors. The filters are steerable and are based on the optimization of a Canny-like criterion. They have a better orientation selectivity than the classical gradient or Hessian-based detectors.]]></description><classname><![CDATA[plugins.big.steerablej.FeatureDetector]]></classname><author><![CDATA[big - Biomedical Imaging Group]]></author><changelog><![CDATA[-
+Version 1.2.0.0
+Date 2013-04-25 17:12:43
+
+Added progress bar during the filtering.
+
+-
+Version 1.1.0.0
+Date 2013-04-25 15:18:46
+
+Updated interface to make it smoother with internalized frames (several awt dependencies removed).
+
+-
+Version 1.0.0.2
+Date 2013-04-24 09:50:47
+
+- Added a protocol block
+- Updated javadoc
+
+-
+Version 1.0.0.1
+Date 2013-04-23 23:34:46
+
+Bug fixes
+- Updated main interface to comply with Icy frames.
+- Fixed a wrong image size bug.
+
+Updated javadoc
+
+-
+Version 0.0.1.0
+Date 2013-04-23 11:39:19
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Feature_Detector]]></web><dependencies><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency></dependencies></root>

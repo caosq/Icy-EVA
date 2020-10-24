@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=384&pluginVersion=0.0.1.2]]></url><name>JLargeArrays</name><version>0.0.1.2</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=384&pluginVersion=0.0.1.2]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[JLargeArrays Library by Piotr Wendykier
+
+https://sites.google.com/site/piotrwendykier/software]]></description><classname><![CDATA[plugins.mitiv.JLargeArrays]]></classname><author><![CDATA[mitiv - CRAL]]></author><changelog><![CDATA[-
+Version 0.0.1.2
+Date 2015-09-04 11:01:30
+
+Exiting beta
+
+-
+Version 0.0.1.1b
+Date 2015-07-03 16:07:03
+
+
+
+-
+Version 0.0.1.0b
+Date 2015-07-03 15:49:46
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/JLargeArrays]]></web><dependencies></dependencies></root>

@@ -1,0 +1,68 @@
+2017-06-09T17:14:46.568113 tid3668 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170609T171446_pid3788.txt
+2017-06-09T17:14:46.568113 tid3668 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-09T17:14:46.578114 tid3668 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-09T17:14:46.591115 tid3668 [IFO,App] User: Administrator
+2017-06-09T17:14:46.591115 tid3668 [IFO,App] Host: MS-20170220QNJB
+2017-06-09T17:14:46.591115 tid3668 [IFO,App] MM Studio version: 1.4.22
+2017-06-09T17:14:46.591115 tid3668 [IFO,App] MMCore version 8.1.0
+2017-06-09T17:14:46.591115 tid3668 [IFO,App] Device API version 65, Module API version 10
+2017-06-09T17:14:46.592115 tid3668 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-09T17:14:46.592115 tid3668 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-09T17:14:46.596115 tid3668 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-09T17:14:46.596115 tid3668 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-09T17:14:47.247152 tid3668 [IFO,App] Finished waiting for plugins to load
+2017-06-09T17:14:47.256153 tid3668 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-09T17:14:47.256153 tid3668 [dbg,Core] Will unload all devices
+2017-06-09T17:14:47.256153 tid3668 [IFO,Core] Did unload all devices
+2017-06-09T17:14:47.256153 tid3668 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-09T17:14:47.259153 tid3668 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-09T17:14:47.259153 tid3668 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-09T17:14:47.272154 tid3668 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-09T17:14:47.272154 tid3668 [dbg,Core] Will load device Pico from Picoscope
+2017-06-09T17:14:47.272154 tid3668 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-09T17:14:47.272154 tid3668 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-09T17:14:47.272154 tid3668 [IFO,Core] Will initialize 2 devices
+2017-06-09T17:14:47.272154 tid3668 [IFO,Core] Will initialize device PicoHub
+2017-06-09T17:14:47.272154 tid3668 [IFO,Core] Did initialize device PicoHub
+2017-06-09T17:14:47.272154 tid3668 [IFO,Core] Will initialize device Pico
+2017-06-09T17:14:47.272154 tid3668 [dbg,dev:Pico] Setting Allowed Binning settings
+2017-06-09T17:14:51.275383 tid3668 [IFO,Core] Did initialize device Pico
+2017-06-09T17:14:51.275383 tid3668 [IFO,Core] Default camera set to Pico
+2017-06-09T17:14:51.275383 tid3668 [IFO,Core] Finished initializing 2 devices
+2017-06-09T17:14:51.275383 tid3668 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Will set Core property: Camera = Pico
+2017-06-09T17:14:51.276383 tid3668 [IFO,Core] Default camera set to Pico
+2017-06-09T17:14:51.276383 tid3668 [dbg,App] Notification for Device: Core Property: Camera changed to value: Pico
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Did set Core property: Camera = Pico
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Will set Core property: AutoShutter = 1
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Autoshutter turned on
+2017-06-09T17:14:51.276383 tid3668 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 1
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Did set Core property: AutoShutter = 1
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Waiting for device PicoHub...
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Finished waiting for device PicoHub
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Waiting for device Pico...
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Finished waiting for device Pico
+2017-06-09T17:14:51.276383 tid3668 [dbg,Core] Will update system state cache
+2017-06-09T17:14:51.277383 tid3668 [IFO,Core] Did update system state cache
+2017-06-09T17:14:51.290383 tid3668 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-09T17:14:51.293384 tid3668 [dbg,Core] Will update system state cache
+2017-06-09T17:14:51.294384 tid3668 [IFO,Core] Did update system state cache
+2017-06-09T17:14:51.294384 tid3668 [IFO,App] Finished updating GUI
+2017-06-09T17:14:51.299384 tid3668 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-09T17:14:51.700407 tid3668 [IFO,App] Rebuilding config group table
+2017-06-09T17:14:51.700407 tid3668 [IFO,App] Finished rebuilding config group table
+2017-06-09T17:14:51.809413 tid4832 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-09T17:14:51.815413 tid4832 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-09T17:14:51.815413 tid4832 [IFO,LogManager] Disabling logging to stderr
+2017-06-09T17:14:52.099430 tid3668 [IFO,App] Rebuilding config group table
+2017-06-09T17:14:52.099430 tid3668 [IFO,App] Finished rebuilding config group table
+2017-06-09T17:14:52.138432 tid3668 [IFO,App] Rebuilding config group table
+2017-06-09T17:14:52.138432 tid3668 [IFO,App] Finished rebuilding config group table
+2017-06-09T17:15:02.303013 tid3668 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-09T17:15:03.472080 tid3668 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-09T17:15:08.590373 tid4964 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-09T17:15:08.590373 tid4964 [IFO,dev:Pico] Sequence thread exiting
+2017-06-09T17:15:15.403763 tid3668 [IFO,Core] Did unload all devices
+2017-06-09T17:15:15.403763 tid3668 [IFO,Core] System reset
+2017-06-09T17:15:15.425764 tid3668 [IFO,Core] Core session ended

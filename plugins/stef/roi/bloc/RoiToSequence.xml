@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile.php?pluginId=318&beta=0]]></url><name>ROI to Sequence</name><version>1.1.1.0</version><required_kernel_version>1.5.1.0</required_kernel_version><kernel_ver>1.5.1.0</kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile.php?pluginId=318&beta=0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2946]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2947]]></image_url><description><![CDATA[Block (Protocols) to convert ROI(s) into a binary image / sequence.]]></description><classname><![CDATA[plugins.stef.roi.bloc.RoiToSequence]]></classname><author><![CDATA[stef - Stephane Dallongeville]]></author><changelog><![CDATA[-
+Version 1.1.1.0
+Date 2014-08-05 13:56:24
+
+Fixed NPE.
+
+-
+Version 1.1.0.0
+Date 2014-06-12 16:55:46
+
+- fixed issue when result ROI is empty.
+- other minors improvements
+
+-
+Version 1.0.1.0
+Date 2014-05-14 14:28:44
+
+Fixed operation when working on ROI with different finite dimension (Union not supported).
+
+-
+Version 1.0.0.1
+Date 2014-05-12 17:11:53
+
+rename
+
+-
+Version 1.0.0.0
+Date 2014-05-12 17:04:37
+
+added minimal kernel version information.
+
+-
+Version 0.0.1.0
+Date 2014-05-12 16:54:25
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/ROI_to_Sequence]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.protocols.Protocols</classname></dependency></dependencies></root>

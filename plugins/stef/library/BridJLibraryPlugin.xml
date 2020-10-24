@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=373&pluginVersion=0.7.0.1]]></url><name>BridJ Library</name><version>0.7.0.1</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=373&pluginVersion=0.7.0.1]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[BridJ library for Icy.
+https://code.google.com/p/bridj/]]></description><classname><![CDATA[plugins.stef.library.BridJLibraryPlugin]]></classname><author><![CDATA[stef - Stephane Dallongeville]]></author><changelog><![CDATA[-
+Version 0.7.0.1
+Date 2017-05-22 12:44:40
+
+Regression from version 0.6.2.0
+
+-
+Version 0.7.0.0
+Date 2017-05-02 16:31:42
+
+Updated to Brid 0.7.0
+
+-
+Version 0.6.2.0
+Date 2015-05-07 18:37:55
+
+
+
+-
+Version 0.0.1.0
+Date 2015-05-07 18:29:19
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/BridJ_Library]]></web><dependencies></dependencies></root>

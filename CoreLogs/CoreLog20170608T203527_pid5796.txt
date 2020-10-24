@@ -1,0 +1,599 @@
+2017-06-08T20:35:27.882286 tid5016 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170608T203527_pid5796.txt
+2017-06-08T20:35:27.882286 tid5016 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-08T20:35:27.899287 tid5016 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] User: Administrator
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] Host: MS-20170220QNJB
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] MM Studio version: 1.4.22
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] MMCore version 8.1.0
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] Device API version 65, Module API version 10
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-08T20:35:27.913287 tid5016 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-08T20:35:27.918288 tid5016 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-08T20:35:27.918288 tid5016 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-08T20:35:28.777337 tid5016 [IFO,App] Finished waiting for plugins to load
+2017-06-08T20:35:28.794338 tid5016 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-08T20:35:28.794338 tid5016 [dbg,Core] Will unload all devices
+2017-06-08T20:35:28.794338 tid5016 [IFO,Core] Did unload all devices
+2017-06-08T20:35:28.794338 tid5016 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-08T20:35:28.796338 tid5016 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-08T20:35:28.796338 tid5016 [dbg,Core] Will load device COM15 from SerialManager
+2017-06-08T20:35:28.799338 tid5016 [IFO,Core] Did load device COM15 from SerialManager; label = COM15
+2017-06-08T20:35:28.799338 tid5016 [dbg,Core] Will load device EVA_NDE_Grbl-Hub from EVA_NDE
+2017-06-08T20:35:28.801338 tid5016 [IFO,Core] Did load device EVA_NDE_Grbl-Hub from EVA_NDE; label = EVA_NDE_Grbl-Hub
+2017-06-08T20:35:28.801338 tid5016 [dbg,Core] Will load device XYStage from EVA_NDE
+2017-06-08T20:35:28.801338 tid5016 [IFO,Core] Did load device XYStage from EVA_NDE; label = XYStage
+2017-06-08T20:35:28.801338 tid5016 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-08T20:35:28.805338 tid5016 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-08T20:35:28.805338 tid5016 [dbg,Core] Will load device Pico from Picoscope
+2017-06-08T20:35:28.806339 tid5016 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Will set property "Port" to "COM15"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Did set property "Port" to "COM15"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "500.0000"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "500.0000"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "BaudRate" to "9600"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "BaudRate" to "9600"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "Handshaking" to "Off"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "Handshaking" to "Off"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "Parity" to "None"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "Parity" to "None"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "StopBits" to "1"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "StopBits" to "1"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Will set property "Verbose" to "1"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core:dev:COM15] Did set property "Verbose" to "1"
+2017-06-08T20:35:28.806339 tid5016 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-08T20:35:28.806339 tid5016 [IFO,Core] Will initialize 5 devices
+2017-06-08T20:35:28.806339 tid5016 [IFO,Core] Will initialize device COM15
+2017-06-08T20:35:28.808339 tid5016 [dbg,dev:COM15] Attempting to set baud of COM15 to 9600
+2017-06-08T20:35:28.809339 tid5016 [dbg,dev:COM15] Attempting to set flow of COM15 to none
+2017-06-08T20:35:28.810339 tid5016 [dbg,dev:COM15] Attempting to set parity of COM15 to none
+2017-06-08T20:35:28.812339 tid5016 [dbg,dev:COM15] Attempting to set stopBits of COM15 to 1
+2017-06-08T20:35:28.816339 tid5016 [IFO,Core] Did initialize device COM15
+2017-06-08T20:35:28.816339 tid5016 [IFO,Core] Will initialize device EVA_NDE_Grbl-Hub
+2017-06-08T20:35:28.816339 tid5016 [dbg,Core:dev:COM15] Will set property "Verbose" to "0"
+2017-06-08T20:35:28.816339 tid5016 [dbg,Core:dev:COM15] Did set property "Verbose" to "0"
+2017-06-08T20:35:28.816339 tid5016 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:28.816339 tid5016 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:28.816339 tid5016 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T20:35:33.816625 tid5016 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-08T20:35:33.816625 tid5016 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-08T20:35:33.816625 tid5016 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-08T20:35:33.816625 tid5016 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Did initialize device EVA_NDE_Grbl-Hub
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Will initialize device XYStage
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Did initialize device XYStage
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Default xy stage set to XYStage
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Will initialize device PicoHub
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Did initialize device PicoHub
+2017-06-08T20:35:33.816625 tid5016 [IFO,Core] Will initialize device Pico
+2017-06-08T20:35:33.816625 tid5016 [dbg,dev:Pico] Setting Allowed Binning settings
+2017-06-08T20:35:35.355713 tid5016 [IFO,Core] Did initialize device Pico
+2017-06-08T20:35:35.355713 tid5016 [IFO,Core] Default camera set to Pico
+2017-06-08T20:35:35.355713 tid5016 [IFO,Core] Finished initializing 5 devices
+2017-06-08T20:35:35.355713 tid5016 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-08T20:35:35.355713 tid5016 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-08T20:35:35.355713 tid5016 [dbg,Core] Will set Core property: Camera = Pico
+2017-06-08T20:35:35.355713 tid5016 [IFO,Core] Default camera set to Pico
+2017-06-08T20:35:35.355713 tid5016 [dbg,App] Notification for Device: Core Property: Camera changed to value: Pico
+2017-06-08T20:35:35.355713 tid5016 [dbg,Core] Did set Core property: Camera = Pico
+2017-06-08T20:35:35.355713 tid5016 [dbg,Core] Will set Core property: AutoShutter = 0
+2017-06-08T20:35:35.355713 tid5016 [dbg,Core] Autoshutter turned off
+2017-06-08T20:35:35.355713 tid5016 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 0
+2017-06-08T20:35:35.355713 tid5016 [dbg,Core] Did set Core property: AutoShutter = 0
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Pico-SampleLength: preset NewPreset: added setting Pico-SampleLength = 512
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Pico-Timebase: preset NewPreset: added setting Pico-Timebase = 1
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Channel B: preset ON: added setting Pico-Channel B = ON
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Channel B: preset OFF: added setting Pico-Channel B = OFF
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Channel A: preset ON: added setting Pico-Channel A = ON
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Channel A: preset OFF: added setting Pico-Channel A = OFF
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 200: added setting Pico-InputRange = 200
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 50: added setting Pico-InputRange = 50
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 20: added setting Pico-InputRange = 20
+2017-06-08T20:35:35.363714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 2000: added setting Pico-InputRange = 2000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 500: added setting Pico-InputRange = 500
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 20000: added setting Pico-InputRange = 20000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 5000: added setting Pico-InputRange = 5000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 10000: added setting Pico-InputRange = 10000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 1000: added setting Pico-InputRange = 1000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-InputRange: preset 100: added setting Pico-InputRange = 100
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-SampleOffset: preset NewPreset: added setting Pico-SampleOffset = 0
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-PixelType: preset 8bit: added setting Pico-PixelType = 8bit
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-PixelType: preset 16bit: added setting Pico-PixelType = 16bit
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group XYStage-MaxVelocity: preset NewPreset: added setting XYStage-MaxVelocity = -62774385622041920000000000000000000000000000000000000000000.0000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-Gain: preset NewPreset: added setting Pico-Gain = 0
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group XYStage-Acceleration: preset NewPreset: added setting XYStage-Acceleration = -62774385622041920000000000000000000000000000000000000000000.0000
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Config group Pico-Offset: preset NewPreset: added setting Pico-Offset = 0
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Waiting for device COM15...
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Finished waiting for device COM15
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Waiting for device EVA_NDE_Grbl-Hub...
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Finished waiting for device EVA_NDE_Grbl-Hub
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Waiting for device XYStage...
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Finished waiting for device XYStage
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Waiting for device PicoHub...
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Finished waiting for device PicoHub
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Waiting for device Pico...
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Finished waiting for device Pico
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core] Will update system state cache
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.364714 tid5016 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.364714 tid5016 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T20:35:35.428717 tid5016 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T20:35:35.428717 tid5016 [IFO,Core] Did update system state cache
+2017-06-08T20:35:35.463719 tid5016 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.463719 tid5016 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.463719 tid5016 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T20:35:35.531723 tid5016 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T20:35:35.531723 tid5016 [dbg,dev:XYStage] GetPositionSteps(), X=0, Y=0
+2017-06-08T20:35:35.556725 tid5016 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T20:35:35.557725 tid5016 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.557725 tid5016 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.557725 tid5016 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T20:35:35.620728 tid5016 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T20:35:35.620728 tid5016 [dbg,dev:XYStage] GetPositionSteps(), X=0, Y=0
+2017-06-08T20:35:35.623728 tid5016 [dbg,Core] Will update system state cache
+2017-06-08T20:35:35.623728 tid5016 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.623728 tid5016 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T20:35:35.623728 tid5016 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T20:35:35.691732 tid5016 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T20:35:35.691732 tid5016 [IFO,Core] Did update system state cache
+2017-06-08T20:35:35.691732 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:35:35.695733 tid5016 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-08T20:35:36.017751 tid5016 [IFO,App] Rebuilding config group table
+2017-06-08T20:35:36.022751 tid5016 [IFO,App] Finished rebuilding config group table
+2017-06-08T20:35:36.091755 tid2544 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-08T20:35:36.094755 tid2544 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-08T20:35:36.094755 tid2544 [IFO,LogManager] Disabling logging to stderr
+2017-06-08T20:35:36.418774 tid5016 [IFO,App] Rebuilding config group table
+2017-06-08T20:35:36.419774 tid5016 [IFO,App] Finished rebuilding config group table
+2017-06-08T20:35:36.453776 tid5016 [IFO,App] Rebuilding config group table
+2017-06-08T20:35:36.454776 tid5016 [IFO,App] Finished rebuilding config group table
+2017-06-08T20:35:39.282938 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T20:35:39.283938 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:35:39.285938 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:35:39.285938 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:35:39.354942 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:35:44.506236 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:35:45.786310 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:35:46.743364 tid5552 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:35:54.850828 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T20:36:00.210135 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:36:00.970178 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:36:25.222565 tid4476 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:36:25.222565 tid4476 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:36:39.422378 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled on in MainFrame.
+2017-06-08T20:36:41.929521 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:36:49.654963 tid5816 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:36:49.654963 tid5816 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:36:50.810029 tid5016 [IFO,App] [UI] JTextField clicked in MainFrame.
+2017-06-08T20:36:52.291114 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:36:52.293114 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:36:52.293114 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:36:52.361118 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:36:54.651249 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled on in MainFrame.
+2017-06-08T20:36:55.873318 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:36:56.977382 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:37:05.739883 tid4108 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:37:05.739883 tid4108 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:37:24.218940 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:37:24.219940 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:37:24.219940 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:37:24.289944 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:37:27.466125 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:37:28.593190 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:38:15.317862 tid4268 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:38:15.317862 tid4268 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:38:52.064964 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:38:52.889011 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:39:04.933700 tid5016 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T20:39:07.195830 tid5016 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T20:39:09.465960 tid1760 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:39:09.465960 tid1760 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:39:14.540250 tid5016 [IFO,App] 
+                                   [       ] java.lang.Exception: Property value "50,000" contains reserved characters in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_setProperty__SWIG_0(Native Method)
+                                   [       ]   at mmcorej.CMMCore.setProperty(CMMCore.java:450)
+                                   [       ]   at org.micromanager.ConfigGroupPad$StateTableData.setValueAt(ConfigGroupPad.java:213)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$500(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-06-08T20:39:17.824438 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:39:17.825438 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:39:17.825438 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:39:17.892441 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:39:18.504476 tid5016 [IFO,App] [UI] JTextField clicked in MainFrame.
+2017-06-08T20:39:20.106568 tid5016 [IFO,App] 
+                                   [       ] java.lang.Exception: Property value "50,00" contains reserved characters in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_setProperty__SWIG_0(Native Method)
+                                   [       ]   at mmcorej.CMMCore.setProperty(CMMCore.java:450)
+                                   [       ]   at org.micromanager.ConfigGroupPad$StateTableData.setValueAt(ConfigGroupPad.java:213)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Actions.actionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.SwingUtilities.notifyAction(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processKeyBinding(Unknown Source)
+                                   [       ]   at javax.swing.JTable.processKeyBinding(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processKeyBindings(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processKeyEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$500(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-06-08T20:39:26.072909 tid5016 [IFO,App] [UI] JTextField clicked in MainFrame.
+2017-06-08T20:39:34.985419 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:39:34.986419 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:39:34.986419 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:39:35.054423 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:39:38.248606 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:39:39.256663 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:39:59.053796 tid4648 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:39:59.053796 tid4648 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:40:04.378100 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:40:04.378100 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:40:04.379100 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:40:04.444104 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:40:16.551797 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:40:18.055883 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:40:31.892674 tid3720 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:40:31.892674 tid3720 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:40:35.695892 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "8bit" in HeavyWeightWindow.
+2017-06-08T20:40:35.696892 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:40:35.697892 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:40:35.697892 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:40:35.762895 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:40:43.656347 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "2000" in HeavyWeightWindow.
+2017-06-08T20:40:43.657347 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:40:43.657347 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:40:43.658347 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:40:43.726351 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:40:46.016482 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:40:47.136546 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:40:52.887875 tid5016 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T20:40:56.033055 tid5016 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T20:41:27.009827 tid5016 [IFO,App] [UI] PanningChartPanel clicked in MainFrame.
+2017-06-08T20:41:36.665379 tid2588 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:41:36.665379 tid2588 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:41:49.464111 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:41:50.568174 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:42:18.749786 tid4236 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:42:18.749786 tid4236 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:42:18.749786 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:42:18.760787 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:42:18.760787 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:42:18.827790 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:42:20.579891 tid5016 [IFO,App] [UI] SubstanceInternalFrameTitlePane clicked in MainFrame.
+2017-06-08T20:42:21.835962 tid5892 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:42:21.835962 tid5892 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:42:24.399109 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:42:25.527174 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:42:35.584749 tid1752 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:42:35.584749 tid1752 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:42:39.278960 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "16bit" in HeavyWeightWindow.
+2017-06-08T20:42:39.279960 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:42:39.280960 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:42:39.280960 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:42:39.347964 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:42:55.862909 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:42:57.070978 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:43:00.263160 tid5016 [IFO,App] [UI] PopupTitlePanel "Canvas" toggled off in MainFrame.
+2017-06-08T20:43:00.765189 tid5016 [IFO,App] [UI] PopupTitlePanel "Canvas" toggled on in MainFrame.
+2017-06-08T20:43:01.486230 tid5016 [IFO,App] [UI] PopupTitlePanel "Histogram and colormap" toggled off in MainFrame.
+2017-06-08T20:43:09.524690 tid5504 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:43:09.524690 tid5504 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:43:11.614810 tid5016 [IFO,App] [UI] JTextField clicked in MainFrame.
+2017-06-08T20:43:14.198957 tid5016 [IFO,App] [UI] ScrollBar clicked in MainFrame.
+2017-06-08T20:43:18.536206 tid5016 [IFO,App] 
+                                   [       ] java.lang.Exception: Property value "5,000" contains reserved characters in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_setProperty__SWIG_0(Native Method)
+                                   [       ]   at mmcorej.CMMCore.setProperty(CMMCore.java:450)
+                                   [       ]   at org.micromanager.ConfigGroupPad$StateTableData.setValueAt(ConfigGroupPad.java:213)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.AWTEventMulticaster.mousePressed(Unknown Source)
+                                   [       ]   at java.awt.Component.processMouseEvent(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+                                   [       ]   at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$500(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-06-08T20:43:21.791392 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:21.792392 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:21.792392 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:21.860396 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:23.295478 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:23.296478 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:23.296478 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:23.361482 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:23.362482 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:24.567550 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:24.568551 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:24.568551 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:24.637555 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:24.638555 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:24.903570 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:24.904570 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:24.904570 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:24.970574 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:24.971574 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:25.247589 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:25.248589 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:25.248589 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:25.315593 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:25.316593 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:25.583609 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:25.583609 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:25.583609 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:25.650612 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:25.651613 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:25.927628 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:25.928628 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:25.928628 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:25.995632 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:25.996632 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:26.407656 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:26.408656 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:26.408656 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:26.474660 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:26.475660 tid5016 [IFO,App] [UI] JTable clicked in MainFrame.
+2017-06-08T20:43:29.896855 tid5016 [IFO,App] 
+                                   [       ] java.lang.Exception: Property value "5,0000" contains reserved characters in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_setProperty__SWIG_0(Native Method)
+                                   [       ]   at mmcorej.CMMCore.setProperty(CMMCore.java:450)
+                                   [       ]   at org.micromanager.ConfigGroupPad$StateTableData.setValueAt(ConfigGroupPad.java:213)
+                                   [       ]   at javax.swing.JTable.setValueAt(Unknown Source)
+                                   [       ]   at javax.swing.JTable.editingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.fireEditingStopped(Unknown Source)
+                                   [       ]   at javax.swing.AbstractCellEditor.stopCellEditing(Unknown Source)
+                                   [       ]   at javax.swing.plaf.basic.BasicTableUI$Actions.actionPerformed(Unknown Source)
+                                   [       ]   at javax.swing.SwingUtilities.notifyAction(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processKeyBinding(Unknown Source)
+                                   [       ]   at javax.swing.JTable.processKeyBinding(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processKeyBindings(Unknown Source)
+                                   [       ]   at javax.swing.JComponent.processKeyEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Container.processEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.KeyboardFocusManager.redispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(Unknown Source)
+                                   [       ]   at java.awt.DefaultKeyboardFocusManager.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Container.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Window.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.Component.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$500(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$4.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-06-08T20:43:39.576409 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:43:39.577409 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:43:39.577409 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:43:39.644413 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:43:49.006948 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:43:51.503091 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:44:01.259649 tid4776 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:44:03.310766 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T20:44:06.454946 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:44:07.358998 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:44:10.449175 tid1080 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:44:10.449175 tid1080 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:44:14.462404 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:44:15.446461 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:44:18.211619 tid3520 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:44:18.211619 tid3520 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:44:34.494550 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:44:35.750622 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:44:38.164760 tid5444 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:44:38.164760 tid5444 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:44:41.726964 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:44:42.782024 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:44:45.455177 tid2396 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:44:51.138502 tid5016 [IFO,App] [UI] PanningChartPanel clicked in MainFrame.
+2017-06-08T20:44:52.422576 tid5016 [IFO,App] [UI] PanningChartPanel clicked in MainFrame.
+2017-06-08T20:44:53.233622 tid5016 [IFO,App] [UI] PanningChartPanel clicked in MainFrame.
+2017-06-08T20:44:56.142788 tid5016 [IFO,App] [UI] PanningChartPanel clicked in MainFrame.
+2017-06-08T20:45:00.431034 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T20:45:03.070185 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:45:04.254252 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:49:33.033626 tid1740 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:49:33.033626 tid1740 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:49:57.524026 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "5000" in HeavyWeightWindow.
+2017-06-08T20:49:57.525026 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T20:49:57.526026 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T20:49:57.526026 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T20:49:57.594030 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T20:50:36.068231 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:50:37.069288 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:52:57.297309 tid4692 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:52:57.297309 tid4692 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:53:01.011521 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:53:01.994577 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:53:04.716733 tid4448 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:53:10.683074 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T20:53:13.595241 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:53:14.626300 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:54:28.675535 tid4156 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:54:32.490754 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T20:54:35.498926 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:54:36.906006 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:54:39.415150 tid6064 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:54:39.415150 tid6064 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:54:43.034357 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:54:44.266427 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:54:46.545557 tid5468 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:55:17.970355 tid5016 [IFO,App] [UI] IcyToggleButton "Live" toggled off in MainFrame.
+2017-06-08T20:55:21.921581 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:55:23.089648 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:58:48.239382 tid3928 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:58:48.239382 tid3928 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:59:00.920107 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:59:02.256183 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T20:59:25.726526 tid5156 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T20:59:25.726526 tid5156 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T20:59:56.168267 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:59:57.096320 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "2" in HeavyWeightWindow.
+2017-06-08T20:59:58.896423 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T20:59:59.560461 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "1" in HeavyWeightWindow.
+2017-06-08T21:00:04.479742 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:00:04.999772 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:00:07.288903 tid5016 [IFO,App] [UI] IcyButton "Refresh" clicked in MainFrame.
+2017-06-08T21:00:07.357907 tid5016 [IFO,App] Rebuilding config group table
+2017-06-08T21:00:07.359907 tid5016 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:00:14.032289 tid5016 [IFO,App] [UI] IcyInternalFrame clicked in MainFrame.
+2017-06-08T21:00:14.824334 tid5016 [IFO,App] [UI] IcyInternalFrame clicked in MainFrame.
+2017-06-08T21:00:15.312362 tid5016 [IFO,App] [UI] JLabel clicked in MainFrame.
+2017-06-08T21:00:16.703441 tid5016 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:00:31.200271 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:00:32.375338 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:00:37.463629 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:00:39.271732 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.kernel.canvas.Canvas2DPlugin" in HeavyWeightWindow.
+2017-06-08T21:01:02.040034 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:01:03.247104 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:01:23.799279 tid5016 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T21:01:29.373598 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.CheckComboBox$ObjCheckBox[,-447,-22,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@59c63b71,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Select all]" in HeavyWeightWindow.
+2017-06-08T21:01:30.565666 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.CheckComboBox$ObjCheckBox[,-447,-22,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@59c63b71,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Select all]" in HeavyWeightWindow.
+2017-06-08T21:01:31.393713 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.CheckComboBox$ObjCheckBox[,-447,-22,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@d083f52,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=channel 0(Default)]" in HeavyWeightWindow.
+2017-06-08T21:01:32.318766 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.CheckComboBox$ObjCheckBox[,-447,-22,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@5b506028,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Mean along T]" in HeavyWeightWindow.
+2017-06-08T21:01:32.918801 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.CheckComboBox$ObjCheckBox[,-447,-22,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@445a1f9a,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Mean along Z]" in HeavyWeightWindow.
+2017-06-08T21:01:34.579896 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.CheckComboBox$ObjCheckBox[,-447,-22,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@d083f52,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=2,bottom=2,right=2],paintBorder=false,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=channel 0(Default)]" in HeavyWeightWindow.
+2017-06-08T21:01:36.302994 tid5016 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T21:02:35.053355 tid5312 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:02:35.053355 tid5312 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:02:44.214879 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T21:02:44.215879 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T21:02:44.216879 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T21:02:44.216879 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:02:44.288883 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T21:02:46.863030 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:02:48.070099 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:02:57.311628 tid236 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:02:57.311628 tid236 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:03:00.182792 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:03:01.534869 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T21:03:01.535869 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T21:03:01.535869 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:03:01.610874 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T21:03:02.934949 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:03:03.999010 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T21:03:03.999010 tid5016 [IFO,App] Refreshing config group table
+2017-06-08T21:03:04.000010 tid5016 [IFO,App] Finished refreshing config group table
+2017-06-08T21:03:04.000010 tid5016 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:03:04.073014 tid5016 [IFO,App] Finished updating GUI
+2017-06-08T21:03:07.662220 tid5016 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:03:09.122303 tid5016 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:03:14.940636 tid3968 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:03:14.940636 tid3968 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:03:18.827858 tid5016 [IFO,Core] Did unload all devices
+2017-06-08T21:03:18.828858 tid5016 [IFO,Core] System reset
+2017-06-08T21:03:18.843859 tid5016 [IFO,Core] Core session ended

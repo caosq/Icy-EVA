@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=277&pluginVersion=0.0.1.0]]></url><name>Track Processor Display Track Number</name><version>0.0.1.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=277&pluginVersion=0.0.1.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2457]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2458]]></image_url><description><![CDATA[Display the track number on the viewer.]]></description><classname><![CDATA[plugins.fab.trackmanager.processors.TrackProcessorDisplayTrackNumber]]></classname><author><![CDATA[fab - Fabrice de Chaumont]]></author><changelog><![CDATA[-
+Version 0.0.1.0
+Date 2013-09-18 11:33:01
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Track_Processor_Display_Track_Number]]></web><dependencies></dependencies></root>

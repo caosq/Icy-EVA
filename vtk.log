@@ -1,0 +1,8 @@
+ERROR: In D:\Stephane\Documents\dev\VTK\6.3.0\source\Common\Core\vtkObject.cxx, line 156
+vtkObject (000000003707F380): Trying to delete object with non-zero reference count.
+
+
+Generic Warning: In D:\Stephane\Documents\dev\VTK\6.3.0\source\Common\Core\vtkObjectBase.cxx, line 93
+Trying to delete object with non-zero reference count.
+
+

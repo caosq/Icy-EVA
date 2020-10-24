@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=300&pluginVersion=0.0.1.0]]></url><name>Distance profiler (track processor)</name><version>0.0.1.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=300&pluginVersion=0.0.1.0]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[Track Processor plugin that computes the relative distance between detections and their evolution over time, with possibility to export to Excel for further analysis]]></description><classname><![CDATA[plugins.adufour.trackprocessors.DistanceProfiler]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 0.0.1.0
+Date 2013-12-23 17:55:29
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Distance_profiler_(track_processor)]]></web><dependencies><dependency><classname>plugins.adufour.workbooks.Workbooks</classname></dependency><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.fab.trackmanager.TrackManager</classname></dependency></dependencies></root>

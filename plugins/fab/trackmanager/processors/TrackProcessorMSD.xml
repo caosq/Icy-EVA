@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=118&pluginVersion=1.0.0.3]]></url><name>Track Processor MSD</name><version>1.0.0.3</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=118&pluginVersion=1.0.0.3]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=598]]></icon_url><image_url></image_url><description><![CDATA[Track Processor computing the MSD (Mean Square Displacement).]]></description><classname><![CDATA[plugins.fab.trackmanager.processors.TrackProcessorMSD]]></classname><author><![CDATA[fab - Fabrice de Chaumont]]></author><changelog><![CDATA[-
+Version 1.0.0.3
+Date 2015-10-23 17:06:06
+
+Now exports to XLS.
+
+-
+Version 1.0.0.2
+Date 2011-12-07 16:07:57
+
+update to fit with new detection data structure
+
+-
+Version 1.0.0.1
+Date 2011-09-23 17:23:49
+
+Fix: Color in graph correspond to track color.
+Fix a bug if no sequence is loaded
+
+
+-
+Version 1.0.0.0
+Date 2011-08-31 15:44:55
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Track_Processor_MSD]]></web><dependencies></dependencies></root>

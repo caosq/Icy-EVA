@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=279&pluginVersion=2.0.0.3]]></url><name>pixelRowAlign</name><version>2.0.0.3</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=279&pluginVersion=2.0.0.3]]></jar_url><icon_url></icon_url><image_url></image_url><description><![CDATA[Align pixels row by row according to specific threshold, originally used for surface tracking in ultrasound imaging]]></description><classname><![CDATA[plugins.oeway.pixelRowAlign]]></classname><author><![CDATA[oeway - Wei Ouyang]]></author><changelog><![CDATA[-
+Version 2.0.0.3
+Date 2013-11-03 14:06:48
+
+Fixed roi name bug
+
+-
+Version 2.0.0.2
+Date 2013-11-03 13:40:16
+
+Compatible with Icy1.4 
+
+-
+Version 1.0.0.1
+Date 2013-10-25 17:23:32
+
+Add threshold mode support
+
+-
+Version 1.0.0.0
+Date 2013-10-25 13:07:58
+
+Add compatibility to normal ROI, so all the 2D ROI is supported
+
+-
+Version 0.0.1.0
+Date 2013-10-23 17:36:59
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/pixelRowAlign]]></web><dependencies></dependencies></root>

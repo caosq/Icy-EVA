@@ -1,0 +1,5 @@
+package org.micromanager.helloworld;
+
+public class HelloWorldPlugin {
+
+}

@@ -1,0 +1,89 @@
+2017-06-10T08:59:00.315735 tid3228 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170610T085900_pid3352.txt
+2017-06-10T08:59:00.315735 tid3228 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-10T08:59:00.328736 tid3228 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-10T08:59:00.331736 tid3228 [IFO,App] User: Administrator
+2017-06-10T08:59:00.332736 tid3228 [IFO,App] Host: MS-20170220QNJB
+2017-06-10T08:59:00.332736 tid3228 [IFO,App] MM Studio version: 1.4.22
+2017-06-10T08:59:00.332736 tid3228 [IFO,App] MMCore version 8.1.0
+2017-06-10T08:59:00.332736 tid3228 [IFO,App] Device API version 65, Module API version 10
+2017-06-10T08:59:00.332736 tid3228 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-10T08:59:00.332736 tid3228 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-10T08:59:00.336737 tid3228 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-10T08:59:00.336737 tid3228 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-10T08:59:01.344794 tid3228 [IFO,App] Finished waiting for plugins to load
+2017-06-10T08:59:01.373796 tid3228 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-10T08:59:01.373796 tid3228 [dbg,Core] Will unload all devices
+2017-06-10T08:59:01.373796 tid3228 [IFO,Core] Did unload all devices
+2017-06-10T08:59:01.373796 tid3228 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-10T08:59:01.385797 tid3228 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-10T08:59:01.385797 tid3228 [dbg,Core] Will load device COM15 from SerialManager
+2017-06-10T08:59:01.387797 tid3228 [IFO,Core] Did load device COM15 from SerialManager; label = COM15
+2017-06-10T08:59:01.387797 tid3228 [dbg,Core] Will load device EVA_NDE_Grbl-Hub from EVA_NDE
+2017-06-10T08:59:01.389797 tid3228 [IFO,Core] Did load device EVA_NDE_Grbl-Hub from EVA_NDE; label = EVA_NDE_Grbl-Hub
+2017-06-10T08:59:01.389797 tid3228 [dbg,Core] Will load device XYStage from EVA_NDE
+2017-06-10T08:59:01.389797 tid3228 [IFO,Core] Did load device XYStage from EVA_NDE; label = XYStage
+2017-06-10T08:59:01.389797 tid3228 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-10T08:59:01.393797 tid3228 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core] Will load device Pico from Picoscope
+2017-06-10T08:59:01.393797 tid3228 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Will set property "Port" to "COM15"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Did set property "Port" to "COM15"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "500.0000"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "500.0000"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Will set property "BaudRate" to "9600"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Did set property "BaudRate" to "9600"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Will set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Did set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-10T08:59:01.393797 tid3228 [dbg,Core:dev:COM15] Will set property "Handshaking" to "Off"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Did set property "Handshaking" to "Off"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Will set property "Parity" to "None"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Did set property "Parity" to "None"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Will set property "StopBits" to "1"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Did set property "StopBits" to "1"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Will set property "Verbose" to "1"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core:dev:COM15] Did set property "Verbose" to "1"
+2017-06-10T08:59:01.394797 tid3228 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-10T08:59:01.394797 tid3228 [IFO,Core] Will initialize 5 devices
+2017-06-10T08:59:01.394797 tid3228 [IFO,Core] Will initialize device COM15
+2017-06-10T08:59:01.394797 tid3228 [IFO,dev:COM15] Failed to open serial port \\.\COM15: CreateFileA() returned Windows system error code 2
+2017-06-10T08:59:01.394797 tid3228 [ERR,Core:dev:COM15] Error in device "COM15": Unknown error in the device (1)
+2017-06-10T08:59:01.447800 tid3228 [IFO,Core] Unloading all devices after failure to load system configuration
+2017-06-10T08:59:01.447800 tid3228 [dbg,Core] Will unload all devices
+2017-06-10T08:59:01.447800 tid3228 [IFO,Core] Did unload all devices
+2017-06-10T08:59:01.447800 tid3228 [IFO,Core] Now rethrowing original error from system configuration loading
+2017-06-10T08:59:01.451800 tid3228 [IFO,App] Failed to load hardware configuation
+                                   [       ] java.lang.Exception: Line 30: Property,Core,Initialize,1
+                                   [       ] Error in device "COM15": Unknown error in the device (1)
+                                   [       ] 
+                                   [       ]  in Thread[AWT-EventQueue-0,6,main]
+                                   [       ]   at mmcorej.MMCoreJJNI.CMMCore_loadSystemConfiguration(Native Method)
+                                   [       ]   at mmcorej.CMMCore.loadSystemConfiguration(CMMCore.java:322)
+                                   [       ]   at org.micromanager.MMStudio.loadSystemConfiguration(MMStudio.java:1723)
+                                   [       ]   at org.micromanager.MMStudio.initializationSequence(MMStudio.java:480)
+                                   [       ]   at org.micromanager.MMStudio.<init>(MMStudio.java:374)
+                                   [       ]   at plugins.tprovoost.Microscopy.MicroManager.gui.MMMainFrame$1.call(MMMainFrame.java:154)
+                                   [       ]   at java.util.concurrent.FutureTask.run(Unknown Source)
+                                   [       ]   at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.access$500(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.awt.EventQueue$3.run(Unknown Source)
+                                   [       ]   at java.security.AccessController.doPrivileged(Native Method)
+                                   [       ]   at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+                                   [       ]   at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                   [       ]   at java.awt.EventDispatchThread.run(Unknown Source)
+2017-06-10T08:59:09.247246 tid3228 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-10T08:59:09.248246 tid3228 [dbg,Core] Will update system state cache
+2017-06-10T08:59:09.248246 tid3228 [IFO,Core] Did update system state cache
+2017-06-10T08:59:09.248246 tid3228 [IFO,App] Finished updating GUI
+2017-06-10T08:59:09.253247 tid3228 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-10T08:59:09.616267 tid3228 [IFO,App] Rebuilding config group table
+2017-06-10T08:59:09.616267 tid3228 [IFO,App] Finished rebuilding config group table
+2017-06-10T08:59:09.688271 tid2864 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-10T08:59:09.689272 tid2864 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-10T08:59:09.689272 tid2864 [IFO,LogManager] Disabling logging to stderr

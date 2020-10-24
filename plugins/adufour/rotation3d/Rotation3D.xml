@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=188&pluginVersion=1.1.0.0]]></url><name>3D Rotation</name><version>1.1.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=188&pluginVersion=1.1.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1417]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2030]]></image_url><description><![CDATA[Takes the active 3D VTK viewer and records a 360-degree rotation of the data into a video sequence.]]></description><classname><![CDATA[plugins.adufour.rotation3d.Rotation3D]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 1.1.0.0
+Date 2016-08-05 16:27:15
+
+* Improved camera lighting during rotation (no more "dark side of the moon" artefacts)
+* reduced "picture-in-picutre" issue when another window is on top of the 3D viewer
+Thanks go to Stephane Dallongeville for helping fix this.
+
+-
+Version 1.0.2.1
+Date 2016-05-13 10:45:00
+
+Re-uploaded the jar file (invalid the first time round)
+
+-
+Version 1.0.2.0
+Date 2016-05-13 03:14:18
+
+Updated to Icy 1.8 and cleaned code
+
+-
+Version 1.0.1.0
+Date 2013-11-13 19:43:35
+
+Attempt to fix an issue causing the capture to freeze on windows systems
+
+-
+Version 1.0.0.0
+Date 2013-11-08 10:49:49
+
+First "officially stable" version:
+* Fixes issue with transparency
+* Optimized rendering
+* Captures as fast as possible (no more timer necessary)
+
+-
+Version 0.0.3.0
+Date 2013-11-07 16:15:06
+
+More code simplification (thanks to Icy 1.4)
+
+-
+Version 0.0.2.1
+Date 2013-11-07 15:58:37
+
+Changed the way the plugin sleeps between captures
+
+-
+Version 0.0.2.0
+Date 2013-11-07 15:54:50
+
+A bit of logging to show the progression (and try to understand why the rotation freezes on some systems)
+
+-
+Version 0.0.1.1
+Date 2013-11-07 15:15:16
+
+Updated to Icy 1.4
+
+-
+Version 0.0.1.0
+Date 2012-08-02 18:53:00
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/3D_Rotation]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency></dependencies></root>

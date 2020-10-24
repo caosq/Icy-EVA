@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=366&pluginVersion=1.2.4.1]]></url><name>ROI blocks</name><version>1.2.4.1</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=366&pluginVersion=1.2.4.1]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3539]]></icon_url><image_url></image_url><description><![CDATA[Set of block (for graphical programming with Protocols) to perform different operations on ROI (Region Of Interest).]]></description><classname><![CDATA[plugins.stef.roi.bloc.RoiBlocks]]></classname><author><![CDATA[stef - Stephane Dallongeville]]></author><changelog><![CDATA[-
+Version 1.2.5.1
+Date 2018-03-01 10:45:32
+
+Fixed typo in "ROI To Mask" block
+
+-
+Version 1.2.5.0
+Date 2017-10-18 10:38:22
+
+Added new "Move ROI To Sequence".
+This block adjusts a set of ROIs coming from a source sequence for a destination sequence. ROIs are translated & scaled according to the origin position & resolution of both sequences.
+
+-
+Version 1.2.4.1
+Date 2017-07-06 18:08:45
+
+(much) faster ROI filtering and sorting processing.
+
+-
+Version 1.2.4.0
+Date 2017-06-06 17:05:23
+
+Added new blocks :
+- SortROI (sort ROIs on a specific descriptor)
+- SeparateROIComponents (separate connected components from ROI(s))
+
+-
+Version 1.2.3.0
+Date 2017-04-13 18:40:50
+
+Added new block "get ROI descriptor value"
+
+-
+Version 1.2.2.1
+Date 2017-04-13 18:40:20
+
+Added new block "get ROI descriptor value"
+
+-
+Version 1.2.2.0
+Date 2016-12-21 16:16:03
+
+Fixed ROI filter block.
+
+-
+Version 1.2.1.0
+Date 2016-12-02 16:36:39
+
+Fixed "filter ROI" block state loading.
+
+-
+Version 1.2.0.1
+Date 2016-11-16 18:48:52
+
+Added new ROI filter bloc allowing generic filtering on any descriptor.
+Note than in current Icy version (1.8.6.0) the descriptor list does not display correctly but that will be fixed with Icy 1.8.7.0 or superior.
+
+-
+Version 1.2.0.0
+Date 2016-07-13 16:54:07
+
+* added block to load / save ROI(s) from / to a file.
+* added block to specifically set ROI T/Z/C position
+
+-
+Version 1.1.7.0
+Date 2016-02-16 12:29:18
+
+Boolean operation does not return anymore empty ROI on intersection when ROI are not intersecting.
+
+-
+Version 1.1.6.0
+Date 2016-02-10 12:42:49
+
+fixed a typo with the 'Data type' field of 'Roi to Sequence' block.
+
+-
+Version 1.1.5.4
+Date 2016-01-13 16:48:42
+
+Better dataType field in RoiToSequence block.
+
+-
+Version 1.1.5.3
+Date 2016-01-13 16:39:37
+
+- added field 'dataType' to RoiToSequence block.
+
+-
+Version 1.1.5.2
+Date 2016-01-13 16:33:42
+
+fixed typo with "fillValue" field in RoiToSequence block.
+
+-
+Version 1.1.5.1
+Date 2016-01-13 16:31:50
+
+fixed typo in fill value field name.
+
+-
+Version 1.1.5.0
+Date 2016-01-13 16:01:27
+
+- added RoiToSequence block to the bundle (old RoiToSequence plugin become deprecated).
+- added "fill value" field to RoiToSequence block.
+
+-
+Version 1.1.4.1
+Date 2016-01-05 18:41:43
+
+added persistence for the global visible overlay (only work with a specific plugin)
+
+-
+Version 1.1.4.0
+Date 2016-01-04 13:11:32
+
+Added a new "create global visible overlay" block which take a list of overlay as input and create a new Overlay which affect globally the visible property of the given input overlay list.
+
+-
+Version 1.1.3.0
+Date 2015-10-23 11:20:18
+
+Better error handling for "Set ROI Name" block.
+
+-
+Version 1.1.2.1
+Date 2015-02-12 18:49:44
+
+minors refactoring.
+
+-
+Version 1.1.2.0
+Date 2015-02-12 18:21:47
+
+minor refactoring
+
+-
+Version 1.1.1.0
+Date 2015-02-12 17:56:48
+
+changed some default parameters values
+
+-
+Version 1.1.0.1
+Date 2015-02-12 16:50:47
+
+- added set ROI properties block
+- minors improvements
+- a bit of refactoring
+
+-
+Version 1.0.0.0
+Date 2015-02-12 15:55:50
+
+Fix version informations.
+
+-
+Version 0.0.1.0
+Date 2015-02-12 15:46:34
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/ROI_blocks]]></web><dependencies><dependency><classname>plugins.adufour.protocols.Protocols</classname></dependency></dependencies></root>

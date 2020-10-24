@@ -1,0 +1,66 @@
+<root description="System workspace" name="sys">
+<task name="Plugins">
+<band name="Setup"/>
+<band name="New">
+<item classname="plugins.tboudier.analysis3d.Analysis3D" priority="top"/>
+<item classname="plugins.nherve.colorpickerthreshold.ColorPickerThreshold" priority="top"/>
+<item classname="plugins.nchenouard.tvdenoising.TVDenoising" priority="top"/>
+<item classname="plugins.adufour.tracking.ManualTracking" priority="top"/>
+<item classname="plugins.big.shapedesigner.ShapeDesigner" priority="top"/>
+<item classname="plugins.spop.simpleoperations.SimpleOperations" priority="top"/>
+<item classname="plugins.weiss.StructureTensor2D.StructureTensor2D" priority="top"/>
+<item classname="plugins.weiss.StructureTensor3D.StructureTensor3D" priority="top"/>
+<item classname="plugins.jmutterer.webcam.WebcamSnap" priority="top"/>
+<item classname="plugins.lagache.colocalizationstudio.ColocalizationStudio" priority="top"/>
+<item classname="plugins.tboudier.mcib3d.Mcib3dLibrary" priority="top"/>
+<item classname="plugins.oeway.viewers.Chart1DCanvas" priority="top"/>
+<item classname="plugins.oeway.IntensityInRectangle" priority="top"/>
+<item classname="plugins.oeway.pixelRowAlign" priority="top"/>
+<item classname="plugins.ferreol.demics.EpiDEMIC" priority="top"/>
+<item classname="plugins.mitiv.mda.ImageToMda" priority="top"/>
+<item classname="plugins.mitiv.mda.MdaToImage" priority="top"/>
+</band>
+<band name="Others">
+<item classname="plugins.vannary.morphomaths.AnalyzeSkeleton" priority="low"/>
+<item classname="plugins.tutorial.basics.AnimatedMarkPainter" priority="low"/>
+<item classname="plugins.tutorial.basics.BarChartDemo1" priority="low"/>
+<item classname="plugins.nchenouard.trackprocessorperformance.BatchMSDsandDistanceComputation" priority="low"/>
+<item classname="plugins.tutorial.basics.CreateAreaROI" priority="low"/>
+<item classname="plugins.stef.tools.DetectionToROI" priority="low"/>
+<item classname="plugins.tutorial.basics.DeviationRendererDemo2" priority="low"/>
+<item classname="plugins.adufour.tutorial.EzPlugTutorial" priority="low"/>
+<item classname="plugins.tutorial.basics.GenerateABugTutorial" priority="low"/>
+<item classname="plugins.tutorial.basics.HelloWorldPlugin" priority="low"/>
+<item classname="plugins.laoc.helloworldplugin.HelloWorldPlugin" priority="low"/>
+<item classname="plugins.tutorial.basics.GenerateImageOfDifferentType" priority="low"/>
+<item classname="plugins.tutorial.basics.TransparentlyProcessAnyImageDataType" priority="low"/>
+<item classname="plugins.tinevez.imglib2icy.ImgLib2SequenceSplitter" priority="low"/>
+<item classname="plugins.fab.intensityprofile.IntensityProfile" priority="low"/>
+<item classname="plugins.adufour.projection.Projection" priority="low"/>
+<item classname="plugins.nchenouard.isotropicwavelets.IsotropicWavelets" priority="low"/>
+<item classname="plugins.nchenouard.linearprogrammingfullsimplex.LinearProgrammingICYPlugin" priority="low"/>
+<item classname="plugins.tutorial.basics.ListOfRegisteredPlugins" priority="low"/>
+<item classname="plugins.tutorial.event.MainListenerUse" priority="low"/>
+<item classname="plugins.lagache.colocmanders.Manders" priority="low"/>
+<item classname="plugins.ylemontag.mathoperations.MathOperationPlugin" priority="low"/>
+<item classname="plugins.nchenouard.particleTracking.sequenceGenerator.TrackingBenchmarkGenerator" priority="low"/>
+<item classname="plugins.stef.demo.particle.Particles" priority="low"/>
+<item classname="plugins.nchenouard.rieszwavelets.RieszWavelets" priority="low"/>
+<item classname="plugins.tutorial.roi.ProcessingFromROI" priority="low"/>
+<item classname="plugins.tutorial.basics.IntensityOverRoi" priority="low"/>
+<item classname="plugins.fab.ROIPool.ROIPool" priority="low"/>
+<item classname="plugins.fab.ROITagger.ROITagger" priority="low"/>
+<item classname="plugins.stef.tools.ROIToDetection" priority="low"/>
+<item classname="plugins.adufour.roi.ROIStatistics" priority="low"/>
+<item classname="plugins.tutorial.painter.SimplePainter01" priority="low"/>
+<item classname="plugins.tutorial.painter.SimplePainter02" priority="low"/>
+<item classname="plugins.adufour.morphology.SPHARM" priority="low"/>
+<item classname="plugins.spop.rotation3D.StackRotationByAngle" priority="low"/>
+<item classname="plugins.tutorial.basics.SwimmingPoolEmitterTutorial" priority="low"/>
+<item classname="plugins.tutorial.basics.SwimmingPoolListenerTutorial" priority="low"/>
+<item classname="plugins.tboudier.watershed3D.Watershed_3D" priority="low"/>
+<item classname="plugins.adufour.workbooks.Workbooks" priority="low"/>
+<item classname="plugins.tprovoost.xugglerslider.XugglerSlider" priority="low"/>
+</band>
+</task>
+</root>

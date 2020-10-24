@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<protocol VERSION="4">
+<blocks>
+<block ID="324882068" blockType="plugins.tprovoost.scripteditor.scriptblock.Pythonscript" className="plugins.tprovoost.scripteditor.scriptblock.Pythonscript" collapsed="false" definedName="Pythonscript" height="465" width="609" xLocation="247" yLocation="105">
+<variables>
+<input>
+<variable ID="Script" name="Script" runtime="false" value="# Click on the button&#10;# to edit in a frame.&#10;&#10;output0 = input0 * 2" visible="false"/>
+<variable ID="Add Input" name="Add Input" runtime="false" value="1" visible="false"/>
+<variable ID="Add output" name="Add output" runtime="false" value="1" visible="false"/>
+<variable ID="input0" name="input0" runtime="false" type="java.lang.Object" value="" visible="false"/>
+<variable ID="1790904027" name="input1" runtime="true" type="java.lang.Object" value="" visible="false"/>
+</input>
+<output>
+<variable ID="output0" name="output0" runtime="false" type="java.lang.Object" visible="false"/>
+<variable ID="436703458" name="output1" runtime="true" type="java.lang.Object" visible="false"/>
+</output>
+</variables>
+</block>
+</blocks>
+<links/>
+</protocol>

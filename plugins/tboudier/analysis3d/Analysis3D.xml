@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=317&pluginVersion=0.0.1.8]]></url><name>3D Analysis</name><version>0.0.1.8</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=317&pluginVersion=0.0.1.8]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2931]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2932]]></image_url><description><![CDATA[3D geometrical and shape measurements of 3D Area Rois (3D objects).]]></description><classname><![CDATA[plugins.tboudier.analysis3d.Analysis3D]]></classname><author><![CDATA[tboudier - Thomas Boudier]]></author><changelog><![CDATA[-
+Version 0.0.1.8
+Date 2017-07-19 08:00:08
+
+Check if the Roi3D is not empty
+
+-
+Version 0.0.1.7
+Date 2017-06-02 04:04:26
+
+Change to display roi name instead of roi id.
+
+-
+Version 0.0.1.6
+Date 2017-05-22 09:57:45
+
+Removed output text
+
+-
+Version 0.0.1.5
+Date 2017-05-22 09:37:19
+
+Redesigned output with sequence name and object id. 
+
+-
+Version 0.0.1.4
+Date 2014-10-13 10:05:11
+
+Added EZstoppable. 
+
+-
+Version 0.0.1.3
+Date 2014-06-25 05:16:33
+
+Checks if a sequence is opened. 
+
+-
+Version 0.0.1.2
+Date 2014-06-03 09:46:27
+
+New computations for the compactness. 
+
+-
+Version 0.0.1.1
+Date 2014-05-08 09:09:30
+
+Compiled for java 1.6.
+
+-
+Version 0.0.1.0b
+Date 2014-05-07 10:15:46
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/3D_Analysis]]></web><dependencies><dependency><classname>plugins.tboudier.mcib3d.Mcib3dLibrary</classname></dependency><dependency><classname>plugins.adufour.workbooks.Workbooks</classname></dependency><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency></dependencies></root>

@@ -1,0 +1,195 @@
+2017-06-08T21:15:45.784582 tid3416 [IFO,LogManager] Enabled primary log file E:\Program Files\icy-1.9.1.0\CoreLogs\CoreLog20170608T211545_pid3360.txt
+2017-06-08T21:15:45.784582 tid3416 [IFO,LogManager] Switching primary log level from info to trace
+2017-06-08T21:15:45.794582 tid3416 [IFO,LogManager] Switched primary log level from info to trace
+2017-06-08T21:15:45.795582 tid3416 [IFO,App] User: Administrator
+2017-06-08T21:15:45.795582 tid3416 [IFO,App] Host: MS-20170220QNJB
+2017-06-08T21:15:45.795582 tid3416 [IFO,App] MM Studio version: 1.4.22
+2017-06-08T21:15:45.796582 tid3416 [IFO,App] MMCore version 8.1.0
+2017-06-08T21:15:45.796582 tid3416 [IFO,App] Device API version 65, Module API version 10
+2017-06-08T21:15:45.796582 tid3416 [IFO,App] Operating System: Windows 7 (amd64) 6.1
+2017-06-08T21:15:45.796582 tid3416 [IFO,App] JVM: Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, 64-bit
+2017-06-08T21:15:45.796582 tid3416 [dbg,Core] Will set circular buffer size to 25 MB
+2017-06-08T21:15:45.796582 tid3416 [dbg,Core] Did set circular buffer size to 25 MB
+2017-06-08T21:15:45.897588 tid3416 [IFO,App] Finished waiting for plugins to load
+2017-06-08T21:15:45.905589 tid3416 [dbg,Core] Will set Core property: Initialize = 0
+2017-06-08T21:15:45.905589 tid3416 [dbg,Core] Will unload all devices
+2017-06-08T21:15:45.905589 tid3416 [IFO,Core] Did unload all devices
+2017-06-08T21:15:45.905589 tid3416 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 0
+2017-06-08T21:15:45.905589 tid3416 [dbg,Core] Did set Core property: Initialize = 0
+2017-06-08T21:15:45.905589 tid3416 [dbg,Core] Will load device COM15 from SerialManager
+2017-06-08T21:15:45.906589 tid3416 [IFO,Core] Did load device COM15 from SerialManager; label = COM15
+2017-06-08T21:15:45.906589 tid3416 [dbg,Core] Will load device EVA_NDE_Grbl-Hub from EVA_NDE
+2017-06-08T21:15:45.907589 tid3416 [IFO,Core] Did load device EVA_NDE_Grbl-Hub from EVA_NDE; label = EVA_NDE_Grbl-Hub
+2017-06-08T21:15:45.907589 tid3416 [dbg,Core] Will load device XYStage from EVA_NDE
+2017-06-08T21:15:45.908589 tid3416 [IFO,Core] Did load device XYStage from EVA_NDE; label = XYStage
+2017-06-08T21:15:45.908589 tid3416 [dbg,Core] Will load device PicoHub from Picoscope
+2017-06-08T21:15:45.908589 tid3416 [IFO,Core] Did load device PicoHub from Picoscope; label = PicoHub
+2017-06-08T21:15:45.908589 tid3416 [dbg,Core] Will load device Pico from Picoscope
+2017-06-08T21:15:45.909589 tid3416 [IFO,Core] Did load device Pico from Picoscope; label = Pico
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Will set property "Port" to "COM15"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:EVA_NDE_Grbl-Hub] Did set property "Port" to "COM15"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "500.0000"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "500.0000"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "BaudRate" to "9600"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "BaudRate" to "9600"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "DelayBetweenCharsMs" to "0.0000"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "Handshaking" to "Off"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "Handshaking" to "Off"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "Parity" to "None"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "Parity" to "None"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "StopBits" to "1"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "StopBits" to "1"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Will set property "Verbose" to "1"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core:dev:COM15] Did set property "Verbose" to "1"
+2017-06-08T21:15:45.909589 tid3416 [dbg,Core] Will set Core property: Initialize = 1
+2017-06-08T21:15:45.909589 tid3416 [IFO,Core] Will initialize 5 devices
+2017-06-08T21:15:45.909589 tid3416 [IFO,Core] Will initialize device COM15
+2017-06-08T21:15:45.911589 tid3416 [dbg,dev:COM15] Attempting to set baud of COM15 to 9600
+2017-06-08T21:15:45.912589 tid3416 [dbg,dev:COM15] Attempting to set flow of COM15 to none
+2017-06-08T21:15:45.914589 tid3416 [dbg,dev:COM15] Attempting to set parity of COM15 to none
+2017-06-08T21:15:45.915589 tid3416 [dbg,dev:COM15] Attempting to set stopBits of COM15 to 1
+2017-06-08T21:15:45.918589 tid3416 [IFO,Core] Did initialize device COM15
+2017-06-08T21:15:45.918589 tid3416 [IFO,Core] Will initialize device EVA_NDE_Grbl-Hub
+2017-06-08T21:15:45.918589 tid3416 [dbg,Core:dev:COM15] Will set property "Verbose" to "0"
+2017-06-08T21:15:45.918589 tid3416 [dbg,Core:dev:COM15] Did set property "Verbose" to "0"
+2017-06-08T21:15:45.918589 tid3416 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:45.918589 tid3416 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:45.918589 tid3416 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T21:15:50.918875 tid3416 [IFO,dev:COM15] TERM_TIMEOUT error occured!
+2017-06-08T21:15:50.918875 tid3416 [ERR,Core] Error occurred in device COM15: Error in device "COM15": (Error message unavailable) (107)
+2017-06-08T21:15:50.918875 tid3416 [IFO,dev:EVA_NDE_Grbl-Hub] answer get error!
+2017-06-08T21:15:50.918875 tid3416 [IFO,dev:EVA_NDE_Grbl-Hub] command send failed!
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Did initialize device EVA_NDE_Grbl-Hub
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Will initialize device XYStage
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Did initialize device XYStage
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Default xy stage set to XYStage
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Will initialize device PicoHub
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Did initialize device PicoHub
+2017-06-08T21:15:50.918875 tid3416 [IFO,Core] Will initialize device Pico
+2017-06-08T21:15:50.918875 tid3416 [dbg,dev:Pico] Setting Allowed Binning settings
+2017-06-08T21:15:52.240951 tid3416 [IFO,Core] Did initialize device Pico
+2017-06-08T21:15:52.240951 tid3416 [IFO,Core] Default camera set to Pico
+2017-06-08T21:15:52.240951 tid3416 [IFO,Core] Finished initializing 5 devices
+2017-06-08T21:15:52.240951 tid3416 [dbg,App] Notification for Device: Core Property: Initialize changed to value: 1
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Did set Core property: Initialize = 1
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Will set Core property: Camera = Pico
+2017-06-08T21:15:52.240951 tid3416 [IFO,Core] Default camera set to Pico
+2017-06-08T21:15:52.240951 tid3416 [dbg,App] Notification for Device: Core Property: Camera changed to value: Pico
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Did set Core property: Camera = Pico
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Will set Core property: AutoShutter = 0
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Autoshutter turned off
+2017-06-08T21:15:52.240951 tid3416 [dbg,App] Notification for Device: Core Property: AutoShutter changed to value: 0
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Did set Core property: AutoShutter = 0
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-SampleLength: preset NewPreset: added setting Pico-SampleLength = 512
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-Timebase: preset NewPreset: added setting Pico-Timebase = 1
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Channel B: preset ON: added setting Pico-Channel B = ON
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Channel B: preset OFF: added setting Pico-Channel B = OFF
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Channel A: preset ON: added setting Pico-Channel A = ON
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Channel A: preset OFF: added setting Pico-Channel A = OFF
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 200: added setting Pico-InputRange = 200
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 50: added setting Pico-InputRange = 50
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 20: added setting Pico-InputRange = 20
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 2000: added setting Pico-InputRange = 2000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 500: added setting Pico-InputRange = 500
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 20000: added setting Pico-InputRange = 20000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 5000: added setting Pico-InputRange = 5000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 10000: added setting Pico-InputRange = 10000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 1000: added setting Pico-InputRange = 1000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-InputRange: preset 100: added setting Pico-InputRange = 100
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-SampleOffset: preset NewPreset: added setting Pico-SampleOffset = 0
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-PixelType: preset 8bit: added setting Pico-PixelType = 8bit
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-PixelType: preset 16bit: added setting Pico-PixelType = 16bit
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group XYStage-MaxVelocity: preset NewPreset: added setting XYStage-MaxVelocity = -62774385622041920000000000000000000000000000000000000000000.0000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-Gain: preset NewPreset: added setting Pico-Gain = 0
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group XYStage-Acceleration: preset NewPreset: added setting XYStage-Acceleration = -62774385622041920000000000000000000000000000000000000000000.0000
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Config group Pico-Offset: preset NewPreset: added setting Pico-Offset = 0
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Waiting for device COM15...
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Finished waiting for device COM15
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Waiting for device EVA_NDE_Grbl-Hub...
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Finished waiting for device EVA_NDE_Grbl-Hub
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Waiting for device XYStage...
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Finished waiting for device XYStage
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Waiting for device PicoHub...
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Finished waiting for device PicoHub
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Waiting for device Pico...
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Finished waiting for device Pico
+2017-06-08T21:15:52.240951 tid3416 [dbg,Core] Will update system state cache
+2017-06-08T21:15:52.241951 tid3416 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.241951 tid3416 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.241951 tid3416 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T21:15:52.308955 tid3416 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T21:15:52.308955 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:15:52.311955 tid3416 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.311955 tid3416 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.311955 tid3416 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T21:15:52.378959 tid3416 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T21:15:52.378959 tid3416 [dbg,dev:XYStage] GetPositionSteps(), X=0, Y=0
+2017-06-08T21:15:52.379959 tid3416 [IFO,App] Updating GUI; config pad = true; from cache = false
+2017-06-08T21:15:52.379959 tid3416 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.379959 tid3416 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.379959 tid3416 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T21:15:52.443963 tid3416 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T21:15:52.443963 tid3416 [dbg,dev:XYStage] GetPositionSteps(), X=0, Y=0
+2017-06-08T21:15:52.444963 tid3416 [dbg,Core] Will update system state cache
+2017-06-08T21:15:52.444963 tid3416 [dbg,Core:dev:COM15] Will set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.444963 tid3416 [dbg,Core:dev:COM15] Did set property "AnswerTimeout" to "5000.00"
+2017-06-08T21:15:52.444963 tid3416 [dbg,dev:COM15] SetCommand -> ?\n
+2017-06-08T21:15:52.509966 tid3416 [dbg,dev:COM15] GetAnswer <- <Idle,MPos:0.000,0.000,0.000,WPos:0.000,0.000,0.000>\r\nok\r\n
+2017-06-08T21:15:52.509966 tid3416 [IFO,Core] Did update system state cache
+2017-06-08T21:15:52.509966 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:15:52.510966 tid3416 [IFO,App] Startup script file (E:\Program Files\icy-1.9.1.0\MMStartup.bsh) not present.
+2017-06-08T21:15:52.626973 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:15:52.628973 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:15:52.648974 tid204 [IFO,LogManager] Switching primary log level from trace to info
+2017-06-08T21:15:52.653975 tid204 [IFO,LogManager] Switched primary log level from trace to info
+2017-06-08T21:15:52.653975 tid204 [IFO,LogManager] Disabling logging to stderr
+2017-06-08T21:15:52.821984 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:15:52.822984 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:15:52.839985 tid3416 [IFO,App] Rebuilding config group table
+2017-06-08T21:15:52.841985 tid3416 [IFO,App] Finished rebuilding config group table
+2017-06-08T21:15:55.417133 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T21:15:55.418133 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:15:55.419133 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:15:55.419133 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:15:55.486137 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:15:59.862387 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:16:01.409475 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:16:02.497538 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:16:03.444592 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:16:39.480653 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "10000" in HeavyWeightWindow.
+2017-06-08T21:16:39.481653 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:16:39.482653 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:16:39.482653 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:16:39.551657 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:16:51.242326 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:16:51.243326 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:16:51.243326 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:16:51.311330 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:16:53.919479 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:16:56.545629 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:16:57.640692 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:16:58.584746 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:20:12.614844 tid3416 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T21:20:13.282882 tid3416 [IFO,App] [UI] CheckComboBox clicked in MainFrame.
+2017-06-08T21:20:29.119788 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T21:20:29.119788 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:20:29.120788 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:20:29.120788 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:20:29.190792 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:20:30.894889 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "OFF" in HeavyWeightWindow.
+2017-06-08T21:20:30.895889 tid3416 [IFO,App] Refreshing config group table
+2017-06-08T21:20:30.896889 tid3416 [IFO,App] Finished refreshing config group table
+2017-06-08T21:20:30.896889 tid3416 [IFO,App] Updating GUI; config pad = false; from cache = false
+2017-06-08T21:20:30.962893 tid3416 [IFO,App] Finished updating GUI
+2017-06-08T21:20:33.233023 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:20:37.192249 tid3416 [IFO,App] [UI] IcyButton clicked in MainFrame.
+2017-06-08T21:20:38.347315 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:20:39.306370 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:22:01.713084 tid3416 [IFO,App] [UI] JComboBox clicked in MainFrame.
+2017-06-08T21:22:02.718141 tid3416 [IFO,App] [UI]  "ComboBox.list" set to "plugins.oeway.viewers.Chart1DCanvas" in HeavyWeightWindow.
+2017-06-08T21:22:07.427410 tid3848 [IFO,dev:Pico] SeqAcquisition interrupted by the user
+2017-06-08T21:22:07.427410 tid3848 [IFO,dev:Pico] Sequence thread exiting
+2017-06-08T21:22:15.207855 tid3416 [IFO,Core] Did unload all devices
+2017-06-08T21:22:15.207855 tid3416 [IFO,Core] System reset
+2017-06-08T21:22:15.220856 tid3416 [IFO,Core] Core session ended

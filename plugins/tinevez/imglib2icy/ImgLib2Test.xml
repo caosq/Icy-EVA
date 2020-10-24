@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=370&pluginVersion=1.0.0.0]]></url><name>ImgLib2-Icy</name><version>1.0.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=370&pluginVersion=1.0.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3646]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3647]]></image_url><description><![CDATA[ImgLib2 wrappers for Icy. 
+
+This library ships the tools needed to
+- wrap an Icy Sequence in an ImgLib2 data structure (no data duplication);
+- wrap an ImgLib2 image into an Icy Sequence (very little data duplication);
+- write a plugin using the whole ImgLib2 library (data structures and algorithms).
+]]></description><classname><![CDATA[plugins.tinevez.imglib2icy.ImgLib2Test]]></classname><author><![CDATA[tinevez - Jean-Yves Tinevez]]></author><changelog><![CDATA[-
+Version 1.0.0.0
+Date 2015-05-28 16:13:27
+
+First non-beta version. Update the submodule to latest release version of each package:
+    
+    - imglib2:                v2.2.1
+    - imglib2-algorithm:      v0.2.1
+    - imglib2-algorithm-fft:  v0.1.2
+    - imglib2-algorithm-gpl:  v0.1.4
+    - imglib2-realtransform:  v2.0.0-beta29
+    - imglib2-roi:            v0.3.1
+    - imglib2-ui:             v2.0.0-beta29
+
+-
+Version 0.0.3.1b
+Date 2015-05-05 17:42:44
+
+- Really upload the right file.
+
+-
+Version 0.0.3.0b
+Date 2015-05-05 17:07:20
+
+- Ship a utility class that can generate Imgs with specific dimensionality. 
+
+-
+Version 0.0.2.2b
+Date 2015-05-04 18:19:34
+
+- Add a basic test plugin that states whether wrapping works.
+- Add a method to return the dimension arrangement of a sequence.
+
+
+-
+Version 0.0.2.1b
+Date 2015-05-04 16:42:24
+
+
+
+-
+Version 0.0.1.0b
+Date 2015-05-04 15:18:39
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/ImgLib2-Icy]]></web><dependencies></dependencies></root>

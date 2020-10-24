@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=311&pluginVersion=1.1.0.0]]></url><name>Manual Tracking</name><version>1.1.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=311&pluginVersion=1.1.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2840]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=2839]]></image_url><description><![CDATA[Like to do things old-school? Track your objects manually, the Icy way!]]></description><classname><![CDATA[plugins.adufour.tracking.ManualTracking]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 1.1.0.0
+Date 2015-01-23 19:33:19
+
+* Added instructions on the interface
+* Simplified and optimised code
+* Fixed several issues
+
+-
+Version 1.0.1.0
+Date 2014-03-25 12:35:01
+
+Fixed issue causing the first tracking click to fail.
+
+-
+Version 1.0.0.0
+Date 2014-03-21 16:56:34
+
+Many bug fixes and easier to use
+
+-
+Version 0.0.1.0
+Date 2014-03-19 16:12:16
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Manual_Tracking]]></web><dependencies><dependency><classname>plugins.adufour.trackprocessors.TrackPainter</classname></dependency></dependencies></root>

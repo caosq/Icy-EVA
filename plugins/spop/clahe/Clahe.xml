@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=162&pluginVersion=2.0.0.0]]></url><name>Adaptive histogram equalization</name><version>2.0.0.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=162&pluginVersion=2.0.0.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=1043]]></icon_url><image_url></image_url><description><![CDATA[The adaptive histogram equalization implements the Contrast-Limited Adaptive Histogram Equalization (CLAHE) for 2D, 3D or 4D sequences (gray or color). ]]></description><classname><![CDATA[plugins.spop.clahe.Clahe]]></classname><author><![CDATA[spop - Sorin Pop]]></author><changelog><![CDATA[-
+Version 2.0.0.0
+Date 2017-09-21 20:43:24
+
+* Major performance kick
+* Added stop button
+
+-
+Version 1.1.0.0
+Date 2012-06-21 10:36:52
+
+plugin ready for Block programming 
+
+-
+Version 1.0.0.0
+Date 2012-03-14 16:58:21
+
+time stack bug fixed
+
+-
+Version 0.0.1.0
+Date 2012-03-14 14:59:54
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Adaptive_histogram_equalization]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency><dependency><classname>plugins.adufour.protocols.Protocols</classname></dependency></dependencies></root>

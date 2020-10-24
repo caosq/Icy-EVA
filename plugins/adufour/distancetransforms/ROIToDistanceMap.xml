@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=326&pluginVersion=2.1.2.0]]></url><name>Distance Transforms</name><version>2.1.2.0</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=326&pluginVersion=2.1.2.0]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3072]]></icon_url><image_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=3070]]></image_url><description><![CDATA[Computes fast quasi-exact euclidean distance transforms in 2D/3D from a set of regions of interest.]]></description><classname><![CDATA[plugins.adufour.distancetransforms.ROIToDistanceMap]]></classname><author><![CDATA[adufour - Alexandre Dufour]]></author><changelog><![CDATA[-
+Version 2.1.2.0
+Date 2017-03-24 18:51:29
+
+Improved performance on 3D mesh ROI
+
+-
+Version 2.1.1.0
+Date 2017-02-21 11:53:22
+
+Fixed the data iterator issue (hopefully one last time!)
+
+-
+Version 2.1.0.0
+Date 2017-02-20 20:46:24
+
+* Circumvent an issue in SequenceDataIterator (Icy versions up to 1.8.6) 
+* New: multi-thread computation on time-lapse data
+
+-
+Version 2.0.4.0
+Date 2017-02-20 14:59:00
+
+Fixed an issue on the 3D Chamfer3 algorithm
+
+-
+Version 2.0.3.0
+Date 2017-02-20 12:44:41
+
+Fixed an issue introduced in the previous update where in temporal (T=-1) ROI were not processed correctly
+
+-
+Version 2.0.2.0
+Date 2017-02-13 17:30:00
+
+Fixed an issue with time series analysis
+
+-
+Version 2.0.1.0
+Date 2017-01-11 19:03:21
+
+Fixed an issue in the 5x5x5 Chamfer distance algorithm
+
+-
+Version 2.0.0.0
+Date 2015-05-20 13:53:45
+
+* Code refactoring & simplification.
+* Pixel size can be taken into account
+* 2D ROI with a specific Z can now be used to calculate 3D maps
+
+-
+Version 1.1.1.0
+Date 2015-03-25 09:24:22
+
+Fixed handling of multiple ROI
+
+-
+Version 1.1.0.0
+Date 2015-03-19 11:33:32
+
+Fixed distance map computation in 3D
+
+-
+Version 1.0.0.0
+Date 2014-06-27 01:24:12
+
+Bumped version to 1.0 (no code change)
+
+-
+Version 0.0.1.0
+Date 2014-06-27 01:22:15
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Distance_Transforms]]></web><dependencies><dependency><classname>plugins.adufour.ezplug.EzPlug</classname></dependency><dependency><classname>plugins.adufour.blocks.Blocks</classname></dependency></dependencies></root>

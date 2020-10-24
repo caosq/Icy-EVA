@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<root>
+<url><![CDATA[http://icy.bioimageanalysis.org/repository/getXMLPluginFile2.php?pluginId=115&pluginVersion=1.0.0.5]]></url><name>Track Processor ROI Gate</name><version>1.0.0.5</version><required_kernel_version></required_kernel_version><kernel_ver></kernel_ver><jar_url><![CDATA[http://icy.bioimageanalysis.org/repository/getJarFile2.php?pluginId=115&pluginVersion=1.0.0.5]]></jar_url><icon_url><![CDATA[http://bioimageanalysis.org/icy/image.php?idAttach=577]]></icon_url><image_url></image_url><description><![CDATA[ROI Gate for the Track Manager plugin]]></description><classname><![CDATA[plugins.fab.trackmanager.processors.TrackProcessorROIGate]]></classname><author><![CDATA[fab - Fabrice de Chaumont]]></author><changelog><![CDATA[-
+Version 1.0.0.5
+Date 2016-04-05 14:46:58
+
+New: Selected ROI option added
+
+-
+Version 1.0.0.4
+Date 2012-10-06 17:52:22
+
+ROI2D Area are now supported.
+
+-
+Version 1.0.0.3
+Date 2011-12-07 16:08:13
+
+update to fit with new detection data structure
+
+-
+Version 1.0.0.2
+Date 2011-09-23 17:25:19
+
+Fix a bug if no sequence is loaded
+
+-
+Version 1.0.0.1
+Date 2011-09-02 16:12:30
+
+minor fixes
+
+-
+Version 1.0.0.0
+Date 2011-08-25 16:08:55
+
+
+
+]]></changelog><web><![CDATA[http://icy.bioimageanalysis.org/plugin/Track_Processor_ROI_Gate]]></web><dependencies></dependencies></root>
